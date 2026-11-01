@@ -1,0 +1,33 @@
+@media print {
+  nav, footer, .btn, #toast-container, .no-print {
+    display: none !important;
+  }
+  
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt;
+  }
+
+  .container {
+    max-width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .card {
+    border: 1px solid #ddd !important;
+    box-shadow: none !important;
+    break-inside: avoid;
+    margin-bottom: 1.5rem !important;
+  }
+
+  .grid-2, .grid-3 {
+    display: block !important;
+  }
+
+  .grid-2 > *, .grid-3 > * {
+    margin-bottom: 1.5rem !important;
+  }
+}
+

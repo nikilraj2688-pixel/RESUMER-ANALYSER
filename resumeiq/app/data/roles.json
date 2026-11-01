@@ -1,0 +1,1439 @@
+[
+  {
+    "id": "backend_developer",
+    "title": "Backend Developer",
+    "description": "Designs, implements, and maintains robust server-side APIs, microservices, databases, and business logic focusing on high performance, scalability, and security.",
+    "required_skills": {
+      "Python": 1.0,
+      "REST APIs": 1.0,
+      "SQL": 0.9,
+      "PostgreSQL": 0.9,
+      "Docker": 0.8,
+      "Git": 0.8,
+      "System Design": 0.9
+    },
+    "nice_to_have_skills": [
+      "Redis",
+      "FastAPI",
+      "Kafka",
+      "AWS",
+      "CI/CD",
+      "GraphQL",
+      "Linux"
+    ],
+    "typical_keywords": [
+      "backend",
+      "server-side",
+      "microservices",
+      "api",
+      "database",
+      "endpoints",
+      "orm",
+      "restful",
+      "scalability",
+      "concurrency"
+    ],
+    "roadmap": [
+      {
+        "week": "Week 1-2",
+        "skill": "System Design & Distributed Systems",
+        "focus": "Caching, rate limiting, horizontal scaling, database sharding",
+        "resources": [
+          "System Design Primer (GitHub)",
+          "Designing Data-Intensive Applications"
+        ]
+      },
+      {
+        "week": "Week 3-4",
+        "skill": "Redis & In-Memory Caching",
+        "focus": "Redis data structures, pub/sub, cache invalidation strategies",
+        "resources": [
+          "Redis Official Documentation",
+          "Redis University Free Courses"
+        ]
+      },
+      {
+        "week": "Week 5-6",
+        "skill": "Message Queues (Kafka / RabbitMQ)",
+        "focus": "Event-driven architecture, producer-consumer patterns, partition keys",
+        "resources": [
+          "Apache Kafka Documentation",
+          "Confluent Developer Quickstarts"
+        ]
+      },
+      {
+        "week": "Week 7-8",
+        "skill": "Docker & Containerized Deployments",
+        "focus": "Multi-stage Dockerfiles, Docker Compose, networking, minimal base images",
+        "resources": [
+          "Docker Get Started Guide",
+          "Dive Into Docker Tutorials"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "frontend_developer",
+    "title": "Frontend Developer",
+    "description": "Engineers responsive, accessible, high-performance web user interfaces, modern component systems, and state management architectures using JavaScript, TypeScript, and modern frameworks.",
+    "required_skills": {
+      "JavaScript": 1.0,
+      "TypeScript": 0.9,
+      "React": 1.0,
+      "HTML5": 0.9,
+      "CSS3": 0.9,
+      "Git": 0.8
+    },
+    "nice_to_have_skills": [
+      "Next.js",
+      "Tailwind CSS",
+      "Redux",
+      "REST APIs",
+      "GraphQL",
+      "Jest",
+      "Vite",
+      "Accessibility (a11y)"
+    ],
+    "typical_keywords": [
+      "frontend",
+      "ui",
+      "ux",
+      "web",
+      "component",
+      "responsive",
+      "spa",
+      "client-side",
+      "browser",
+      "dom",
+      "state management"
+    ],
+    "roadmap": [
+      {
+        "week": "Week 1-2",
+        "skill": "TypeScript Mastery",
+        "focus": "Generics, union types, interfaces, utility types with React",
+        "resources": [
+          "TypeScript Official Handbook",
+          "Total TypeScript Tutorials"
+        ]
+      },
+      {
+        "week": "Week 3-4",
+        "skill": "Next.js & Server Components",
+        "focus": "App router, SSR, SSG, streaming, API routes",
+        "resources": [
+          "Next.js Official Learn Course",
+          "Vercel Academy"
+        ]
+      },
+      {
+        "week": "Week 5-6",
+        "skill": "Tailwind CSS & Component Systems",
+        "focus": "Utility classes, theme design tokens, headless UI integration",
+        "resources": [
+          "Tailwind CSS Documentation",
+          "Refactoring UI Guide"
+        ]
+      },
+      {
+        "week": "Week 7-8",
+        "skill": "Testing with Jest & React Testing Library",
+        "focus": "Unit testing components, mocking API calls, accessibility checks",
+        "resources": [
+          "React Testing Library Docs",
+          "Kent C. Dodds Testing Blog"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fullstack_developer",
+    "title": "Full-Stack Developer",
+    "description": "Builds end-to-end web applications bridging client-side user interfaces, server-side APIs, database schemas, authentication, and cloud deployment pipelines.",
+    "required_skills": {
+      "JavaScript": 1.0,
+      "Python": 0.9,
+      "React": 0.9,
+      "Node.js": 0.9,
+      "SQL": 0.8,
+      "REST APIs": 1.0,
+      "Git": 0.8
+    },
+    "nice_to_have_skills": [
+      "TypeScript",
+      "Docker",
+      "PostgreSQL",
+      "MongoDB",
+      "AWS",
+      "Next.js",
+      "CI/CD"
+    ],
+    "typical_keywords": [
+      "full-stack",
+      "fullstack",
+      "end-to-end",
+      "web application",
+      "api",
+      "frontend",
+      "backend",
+      "database",
+      "deploy",
+      "mvc"
+    ],
+    "roadmap": [
+      {
+        "week": "Week 1-2",
+        "skill": "TypeScript Across the Stack",
+        "focus": "Shared types between client and server, type-safe API contracts",
+        "resources": [
+          "TypeScript Official Handbook",
+          "tRPC & Type-Safe APIs Guide"
+        ]
+      },
+      {
+        "week": "Week 3-4",
+        "skill": "Docker & Local Orchestration",
+        "focus": "Containerizing fullstack app + database via Docker Compose",
+        "resources": [
+          "Docker Curriculum for Web Developers"
+        ]
+      },
+      {
+        "week": "Week 5-6",
+        "skill": "PostgreSQL & ORM Modeling",
+        "focus": "Relational indexing, transactions, Prisma / SQLAlchemy migrations",
+        "resources": [
+          "PostgreSQL Tutorial Free Docs",
+          "Use The Index, Luke!"
+        ]
+      },
+      {
+        "week": "Week 7-8",
+        "skill": "Cloud CI/CD & Deployments",
+        "focus": "Automated test pipelines via GitHub Actions and cloud deployment",
+        "resources": [
+          "GitHub Actions Documentation",
+          "Full Stack Open (University of Helsinki)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ml_engineer",
+    "title": "Machine Learning Engineer",
+    "description": "Develops, optimizes, and productionizes machine learning and deep learning models, data preprocessing pipelines, and scalable inference services for predictive systems.",
+    "required_skills": {
+      "Python": 1.0,
+      "Machine Learning": 1.0,
+      "Deep Learning": 0.9,
+      "PyTorch": 0.9,
+      "Scikit-Learn": 0.9,
+      "Docker": 0.8,
+      "Git": 0.8
+    },
+    "nice_to_have_skills": [
+      "TensorFlow",
+      "MLOps",
+      "Model Deployment",
+      "Pandas",
+      "NumPy",
+      "AWS",
+      "Kubernetes",
+      "FastAPI"
+    ],
+    "typical_keywords": [
+      "machine learning",
+      "ml",
+      "deep learning",
+      "model training",
+      "inference",
+      "neural network",
+      "pytorch",
+      "loss function",
+      "feature store",
+      "production ml"
+    ],
+    "roadmap": [
+      {
+        "week": "Week 1-2",
+        "skill": "Deep Learning with PyTorch",
+        "focus": "Custom autograd, neural network modules, DataLoader pipelines, GPU acceleration",
+        "resources": [
+          "PyTorch Deep Learning with PyTorch Tutorials",
+          "Deep Learning Specialization by Andrew Ng"
+        ]
+      },
+      {
+        "week": "Week 3-4",
+        "skill": "MLOps & Tracking (MLflow/Weights & Biases)",
+        "focus": "Experiment tracking, model registry, artifact versioning",
+        "resources": [
+          "MLflow Quickstart Guide",
+          "Full Stack Deep Learning Course"
+        ]
+      },
+      {
+        "week": "Week 5-6",
+        "skill": "Model Optimization & Serving",
+        "focus": "ONNX runtime, quantization, FastAPI inference microservice, batching",
+        "resources": [
+          "FastAPI Documentation",
+          "Hugging Face Optimum & Serving Docs"
+        ]
+      },
+      {
+        "week": "Week 7-8",
+        "skill": "Docker & Kubernetes for ML",
+        "focus": "Packaging models in lightweight containers, GPU orchestration on k8s",
+        "resources": [
+          "Kubernetes for ML Engineers Guide",
+          "Made With ML Course by Goku Mohandas"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data_scientist",
+    "title": "Data Scientist",
+    "description": "Applies statistical modeling, exploratory data analysis, hypothesis testing, machine learning, and business storytelling to discover actionable insights from complex datasets.",
+    "required_skills": {
+      "Python": 1.0,
+      "SQL": 0.9,
+      "Machine Learning": 0.9,
+      "Pandas": 1.0,
+      "NumPy": 0.9,
+      "Statistics": 0.9,
+      "Data Analysis": 0.9
+    },
+    "nice_to_have_skills": [
+      "Scikit-Learn",
+      "Tableau",
+      "Power BI",
+      "R",
+      "A/B Testing",
+      "Matplotlib",
+      "Seaborn",
+      "BigQuery"
+    ],
+    "typical_keywords": [
+      "data science",
+      "statistical analysis",
+      "hypothesis testing",
+      "predictive modeling",
+      "exploratory analysis",
+      "clustering",
+      "regression",
+      "visualization",
+      "insights"
+    ],
+    "roadmap": [
+      {
+        "week": "Week 1-2",
+        "skill": "Advanced Statistical Modeling & A/B Testing",
+        "focus": "P-values, power analysis, sample sizing, causal inference, bootstrapping",
+        "resources": [
+          "Practical Statistics for Data Scientists (OReilly)",
+          "Khan Academy Statistics"
+        ]
+      },
+      {
+        "week": "Week 3-4",
+        "skill": "Machine Learning Algorithms (Scikit-Learn)",
+        "focus": "Ensemble methods, Random Forests, XGBoost, cross-validation, hyperparameter tuning",
+        "resources": [
+          "Scikit-Learn User Guide",
+          "Kaggle Learn Micro-Courses"
+        ]
+      },
+      {
+        "week": "Week 5-6",
+        "skill": "SQL for Analytics & BigQuery",
+        "focus": "Window functions, CTEs, aggregation rollups, data warehouse queries",
+        "resources": [
+          "Mode Analytics SQL Tutorial",
+          "Google Cloud BigQuery Docs"
+        ]
+      },
+      {
+        "week": "Week 7-8",
+        "skill": "Data Storytelling & Executive Dashboards",
+        "focus": "Visualizing actionable metrics with Tableau / Streamlit for stakeholders",
+        "resources": [
+          "Storytelling with Data by Cole Nussbaumer",
+          "Tableau Public Training"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data_engineer",
+    "title": "Data Engineer",
+    "description": "Architects, constructs, and manages reliable data pipelines, distributed pipelines, warehousing solutions, and ETL workflows to feed business analytics and ML systems.",
+    "required_skills": {
+      "Python": 1.0,
+      "SQL": 1.0,
+      "ETL": 0.9,
+      "Apache Spark": 0.9,
+      "Kafka": 0.8,
+      "Data Modeling": 0.9,
+      "Git": 0.8
+    },
+    "nice_to_have_skills": [
+      "Airflow",
+      "Snowflake",
+      "BigQuery",
+      "dbt",
+      "AWS",
+      "Docker",
+      "PostgreSQL",
+      "Databricks"
+    ],
+    "typical_keywords": [
+      "data engineer",
+      "pipeline",
+      "etl",
+      "elt",
+      "batch processing",
+      "streaming",
+      "warehouse",
+      "data lake",
+      "spark",
+      "orchestration",
+      "schema"
+    ],
+    "roadmap": [
+      {
+        "week": "Week 1-2",
+        "skill": "Apache Spark & PySpark",
+        "focus": "RDDs, DataFrames, partitioning, shuffles, lazy evaluation, performance tuning",
+        "resources": [
+          "Spark: The Definitive Guide",
+          "PySpark Official Tutorial"
+        ]
+      },
+      {
+        "week": "Week 3-4",
+        "skill": "Workflow Orchestration with Apache Airflow",
+        "focus": "DAG authoring, operators, sensors, backfilling, XComs",
+        "resources": [
+          "Astronomer Airflow Guides",
+          "Apache Airflow Official Tutorial"
+        ]
+      },
+      {
+        "week": "Week 5-6",
+        "skill": "Modern Data Stack: dbt & Snowflake",
+        "focus": "Transformation modeling, tests, documentation, lineage tracking",
+        "resources": [
+          "dbt Fundamentals Free Certification Course",
+          "Snowflake Hands-on Lab"
+        ]
+      },
+      {
+        "week": "Week 7-8",
+        "skill": "Streaming Pipelines with Kafka",
+        "focus": "Event producers, consumers, schemas with Avro, stream transformations",
+        "resources": [
+          "Confluent Kafka Developer Course",
+          "Kafka: The Definitive Guide"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "devops_engineer",
+    "title": "DevOps Engineer",
+    "description": "Automates software delivery, builds scalable cloud infrastructure with IaC, oversees CI/CD pipelines, and ensures platform reliability, observability, and security.",
+    "required_skills": {
+      "Linux": 1.0,
+      "Docker": 1.0,
+      "Kubernetes": 0.9,
+      "CI/CD": 1.0,
+      "Git": 0.9,
+      "Shell Scripting": 0.8,
+      "Terraform": 0.8
+    },
+    "nice_to_have_skills": [
+      "AWS",
+      "Prometheus",
+      "Grafana",
+      "Ansible",
+      "Python",
+      "Nginx",
+      "ArgoCD",
+      "ELK Stack"
+    ],
+    "typical_keywords": [
+      "devops",
+      "infrastructure",
+      "ci/cd",
+      "continuous integration",
+      "kubernetes",
+      "container",
+      "terraform",
+      "automation",
+      "site reliability",
+      "helm"
+    ],
+    "roadmap": [
+      {
+        "week": "Week 1-2",
+        "skill": "Kubernetes Administration & Helm",
+        "focus": "Pods, Services, Deployments, Ingress controllers, Helm chart authoring",
+        "resources": [
+          "Kubernetes.io Documentation & Interactive Tutorials",
+          "Mumshad Mannambeth CKA Course"
+        ]
+      },
+      {
+        "week": "Week 3-4",
+        "skill": "Infrastructure as Code (Terraform)",
+        "focus": "HCL syntax, modules, state management, remote backends, plan/apply cycle",
+        "resources": [
+          "HashiCorp Learn Terraform",
+          "Terraform Up & Running"
+        ]
+      },
+      {
+        "week": "Week 5-6",
+        "skill": "CI/CD Pipelines (GitHub Actions / GitLab CI)",
+        "focus": "Matrix builds, caching dependencies, automated testing, docker image publishing",
+        "resources": [
+          "GitHub Actions Documentation",
+          "GitLab CI/CD Official Examples"
+        ]
+      },
+      {
+        "week": "Week 7-8",
+        "skill": "Observability: Prometheus & Grafana",
+        "focus": "Metric collection, PromQL queries, alerting rules, dashboard visualization",
+        "resources": [
+          "Prometheus Getting Started",
+          "Grafana Fundamentals Tutorials"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cloud_engineer",
+    "title": "Cloud Engineer",
+    "description": "Architects, provisions, and administers enterprise cloud infrastructure across AWS, Azure, or GCP with a focus on high availability, network security, and cost efficiency.",
+    "required_skills": {
+      "AWS": 1.0,
+      "Linux": 0.9,
+      "Terraform": 0.9,
+      "Docker": 0.8,
+      "Git": 0.8,
+      "Shell Scripting": 0.8
+    },
+    "nice_to_have_skills": [
+      "Azure",
+      "Google Cloud Platform",
+      "Kubernetes",
+      "CI/CD",
+      "Python",
+      "Security Best Practices"
+    ],
+    "typical_keywords": [
+      "cloud",
+      "aws",
+      "infrastructure",
+      "vpc",
+      "iam",
+      "s3",
+      "ec2",
+      "cloud architect",
+      "provisioning",
+      "networking",
+      "cost optimization"
+    ],
+    "roadmap": [
+      {
+        "week": "Week 1-2",
+        "skill": "Core Cloud Architecture & Networking",
+        "focus": "VPCs, subnets, route tables, internet gateways, security groups, NAT gateways",
+        "resources": [
+          "AWS Certified Solutions Architect Training",
+          "AWS Well-Architected Framework"
+        ]
+      },
+      {
+        "week": "Week 3-4",
+        "skill": "Infrastructure as Code with Terraform",
+        "focus": "Automating multi-tier cloud deployments with reusable Terraform modules",
+        "resources": [
+          "HashiCorp Terraform Tutorials",
+          "AWS with Terraform Hands-on Guides"
+        ]
+      },
+      {
+        "week": "Week 5-6",
+        "skill": "Serverless & Managed Cloud Services",
+        "focus": "AWS Lambda, API Gateway, DynamoDB, SQS/SNS event triggers",
+        "resources": [
+          "Serverless Land by AWS",
+          "AWS Serverless Application Model (SAM) Docs"
+        ]
+      },
+      {
+        "week": "Week 7-8",
+        "skill": "Cloud Security & IAM Governance",
+        "focus": "Least-privilege policies, role assumption, KMS encryption, CloudTrail auditing",
+        "resources": [
+          "AWS Security Best Practices Whitepaper",
+          "Cloud Security Alliance (CSA) Guides"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cybersecurity_analyst",
+    "title": "Cybersecurity Analyst",
+    "description": "Protects networks, applications, and cloud environments by identifying vulnerabilities, analyzing threats, monitoring security incident events, and enforcing compliance.",
+    "required_skills": {
+      "Linux": 0.9,
+      "Security Best Practices": 1.0,
+      "Git": 0.7,
+      "Shell Scripting": 0.8,
+      "TCP/IP Networking": 0.9
+    },
+    "nice_to_have_skills": [
+      "Wireshark",
+      "Nmap",
+      "Burp Suite",
+      "Python",
+      "Splunk",
+      "Docker",
+      "SIEM",
+      "OWASP"
+    ],
+    "typical_keywords": [
+      "security",
+      "cybersecurity",
+      "vulnerability",
+      "infosec",
+      "penetration testing",
+      "soc",
+      "incident response",
+      "firewall",
+      "threat",
+      "compliance"
+    ],
+    "roadmap": [
+      {
+        "week": "Week 1-2",
+        "skill": "Network Security & Packet Analysis",
+        "focus": "TCP/IP handshake, OSI model, packet sniffing with Wireshark, Nmap port scanning",
+        "resources": [
+          "Professor Messer Security+ Course",
+          "Wireshark User Guide"
+        ]
+      },
+      {
+        "week": "Week 3-4",
+        "skill": "Web Application Security & OWASP Top 10",
+        "focus": "SQL injection, XSS, CSRF, broken access control, testing with Burp Suite",
+        "resources": [
+          "PortSwigger Web Security Academy (Free)",
+          "OWASP Top Ten Project"
+        ]
+      },
+      {
+        "week": "Week 5-6",
+        "skill": "SIEM & Threat Detection (Splunk/ELK)",
+        "focus": "Log parsing, correlation rules, incident triaging, anomaly detection",
+        "resources": [
+          "Splunk Free Training Courses",
+          "TryHackMe SOC Analyst Path"
+        ]
+      },
+      {
+        "week": "Week 7-8",
+        "skill": "Defensive Security & Compliance",
+        "focus": "Zero Trust, hardening Linux servers, IAM least privilege, SOC 2 / ISO 27001",
+        "resources": [
+          "CIS Benchmarks",
+          "NIST Cybersecurity Framework"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mobile_developer",
+    "title": "Mobile App Developer",
+    "description": "Builds native or cross-platform mobile experiences for iOS and Android devices, focusing on sleek UX, offline storage, smooth animations, and API integration.",
+    "required_skills": {
+      "JavaScript": 0.8,
+      "React Native": 0.9,
+      "Mobile Development": 1.0,
+      "REST APIs": 0.9,
+      "Git": 0.8
+    },
+    "nice_to_have_skills": [
+      "Flutter",
+      "TypeScript",
+      "Swift",
+      "Kotlin",
+      "Firebase",
+      "Redux",
+      "GraphQL"
+    ],
+    "typical_keywords": [
+      "mobile",
+      "ios",
+      "android",
+      "react native",
+      "flutter",
+      "app store",
+      "play store",
+      "mobile ui",
+      "native",
+      "offline-first"
+    ],
+    "roadmap": [
+      {
+        "week": "Week 1-2",
+        "skill": "React Native & Mobile UI Architecture",
+        "focus": "Component lifecycles, navigation (React Navigation), responsive styling",
+        "resources": [
+          "React Native Official Documentation",
+          "Expo Documentation"
+        ]
+      },
+      {
+        "week": "Week 3-4",
+        "skill": "State Management & Offline Storage",
+        "focus": "Zustand / Redux Toolkit, AsyncStorage, SQLite, caching network queries",
+        "resources": [
+          "TanStack Query for Mobile",
+          "WatermelonDB Offline-First Docs"
+        ]
+      },
+      {
+        "week": "Week 5-6",
+        "skill": "Device APIs & Native Modules",
+        "focus": "Camera, push notifications, geolocation, biometrics authentication",
+        "resources": [
+          "Expo APIs Documentation",
+          "React Native Community Modules"
+        ]
+      },
+      {
+        "week": "Week 7-8",
+        "skill": "App Store & Play Store Deployment",
+        "focus": "Signing keys, Fastlane automation, bundle optimization, crash reporting",
+        "resources": [
+          "Google Play Console Guide",
+          "Apple Developer Documentation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ai_nlp_engineer",
+    "title": "AI / NLP Engineer",
+    "description": "Designs state-of-the-art NLP models, Large Language Model (LLM) agents, RAG architectures, and semantic search systems to process and generate human language.",
+    "required_skills": {
+      "Python": 1.0,
+      "NLP": 1.0,
+      "LLMs": 1.0,
+      "RAG": 0.9,
+      "PyTorch": 0.8,
+      "Vector Databases": 0.9,
+      "Git": 0.8
+    },
+    "nice_to_have_skills": [
+      "LangChain",
+      "LlamaIndex",
+      "Hugging Face",
+      "FastAPI",
+      "Docker",
+      "Semantic Search",
+      "spaCy"
+    ],
+    "typical_keywords": [
+      "nlp",
+      "llm",
+      "rag",
+      "embeddings",
+      "transformers",
+      "vector search",
+      "langchain",
+      "generative ai",
+      "prompt engineering",
+      "semantic"
+    ],
+    "roadmap": [
+      {
+        "week": "Week 1-2",
+        "skill": "Transformers & Hugging Face Ecosystem",
+        "focus": "Tokenization, attention mechanism, fine-tuning encoder/decoder models",
+        "resources": [
+          "Hugging Face NLP Course (Free)",
+          "Stanford CS224N: Natural Language Processing"
+        ]
+      },
+      {
+        "week": "Week 3-4",
+        "skill": "Vector Databases & Semantic Embeddings",
+        "focus": "Cosine similarity, HNSW indexing, chunking strategies with Pinecone / Chroma",
+        "resources": [
+          "Pinecone Learning Center",
+          "Sentence-Transformers Documentation"
+        ]
+      },
+      {
+        "week": "Week 5-6",
+        "skill": "Advanced RAG Architectures",
+        "focus": "Re-ranking, hybrid search (BM25 + Dense), query expansion, hallucination checks",
+        "resources": [
+          "LlamaIndex Documentation",
+          "LangChain Expression Language (LCEL) Guides"
+        ]
+      },
+      {
+        "week": "Week 7-8",
+        "skill": "LLM Serving & Evaluation",
+        "focus": "vLLM, Ollama, Ragas evaluation framework, prompt engineering, agentic workflows",
+        "resources": [
+          "Ragas Evaluation Docs",
+          "vLLM Fast Inference Engine Guide"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "qa_engineer",
+    "title": "QA / Automation Test Engineer",
+    "description": "Ensures software quality, reliability, and correctness by architecting automated test suites, end-to-end regression frameworks, and performance testing scripts.",
+    "required_skills": {
+      "Python": 0.8,
+      "JavaScript": 0.8,
+      "Unit Testing": 1.0,
+      "Integration Testing": 0.9,
+      "End-to-End Testing": 0.9,
+      "Git": 0.8
+    },
+    "nice_to_have_skills": [
+      "Selenium",
+      "Cypress",
+      "Playwright",
+      "Jest",
+      "CI/CD",
+      "Docker",
+      "Performance Testing"
+    ],
+    "typical_keywords": [
+      "qa",
+      "quality assurance",
+      "testing",
+      "automation",
+      "test cases",
+      "selenium",
+      "cypress",
+      "playwright",
+      "regression",
+      "bug tracking"
+    ],
+    "roadmap": [
+      {
+        "week": "Week 1-2",
+        "skill": "Modern E2E Testing with Playwright",
+        "focus": "Page Object Model, assertions, test fixtures, cross-browser testing",
+        "resources": [
+          "Playwright Official Documentation",
+          "Playwright with TypeScript Guide"
+        ]
+      },
+      {
+        "week": "Week 3-4",
+        "skill": "API Testing & Automation",
+        "focus": "Postman collections, Pytest with requests, contract testing with Pact",
+        "resources": [
+          "Pytest Official Documentation",
+          "Postman API Testing Academy"
+        ]
+      },
+      {
+        "week": "Week 5-6",
+        "skill": "CI/CD Pipeline Test Integration",
+        "focus": "Running headless test suites in GitHub Actions, parallel test workers",
+        "resources": [
+          "GitHub Actions for Testing Guide"
+        ]
+      },
+      {
+        "week": "Week 7-8",
+        "skill": "Performance & Load Testing (k6 / JMeter)",
+        "focus": "Simulating virtual users, measuring latency percentiles, identifying bottlenecks",
+        "resources": [
+          "k6.io Documentation",
+          "Apache JMeter User Manual"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ui_ux_designer",
+    "title": "UI/UX Designer",
+    "description": "Creates intuitive, user-centered digital interfaces, design systems, interactive prototypes, and wireframes grounded in usability research and behavioral testing.",
+    "required_skills": {
+      "Design Systems": 1.0,
+      "HTML5": 0.7,
+      "CSS3": 0.7,
+      "Customer Empathy": 0.9,
+      "Communication": 0.9
+    },
+    "nice_to_have_skills": [
+      "JavaScript",
+      "Tailwind CSS",
+      "Accessibility (a11y)",
+      "Problem Solving",
+      "Product Management"
+    ],
+    "typical_keywords": [
+      "ui",
+      "ux",
+      "user experience",
+      "user interface",
+      "figma",
+      "wireframe",
+      "prototype",
+      "design system",
+      "usability",
+      "user research"
+    ],
+    "roadmap": [
+      {
+        "week": "Week 1-2",
+        "skill": "Figma Advanced Prototyping & Variables",
+        "focus": "Auto-layout, design tokens, responsive breakpoints, component variants",
+        "resources": [
+          "Figma Official Video Tutorials",
+          "Refactoring UI by Adam Wathan & Steve Schoger"
+        ]
+      },
+      {
+        "week": "Week 3-4",
+        "skill": "Design Systems Architecture",
+        "focus": "Color semantics, typography scales, spacing grids, atomic design principles",
+        "resources": [
+          "Design Systems Handbook by InVision",
+          "Material Design 3 Guidelines"
+        ]
+      },
+      {
+        "week": "Week 5-6",
+        "skill": "UX Research & Usability Testing",
+        "focus": "User journey mapping, cognitive walkthroughs, moderated user testing, heatmaps",
+        "resources": [
+          "Nielsen Norman Group (NN/g) Free Articles",
+          "Don't Make Me Think by Steve Krug"
+        ]
+      },
+      {
+        "week": "Week 7-8",
+        "skill": "Web Accessibility (WCAG 2.1)",
+        "focus": "Color contrast ratios, keyboard navigation, screen reader accessibility",
+        "resources": [
+          "W3C Web Accessibility Initiative (WAI)",
+          "A11y Project Checklist"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "product_manager",
+    "title": "Technical Product Manager",
+    "description": "Drives product strategy, translates customer pain points into actionable technical roadmaps, prioritizes feature backlogs, and collaborates with engineering teams.",
+    "required_skills": {
+      "Product Management": 1.0,
+      "Agile / Scrum": 1.0,
+      "Communication": 1.0,
+      "Leadership": 0.9,
+      "Problem Solving": 0.9,
+      "Stakeholder Management": 0.9
+    },
+    "nice_to_have_skills": [
+      "SQL",
+      "Data Analysis",
+      "System Design",
+      "Git",
+      "Jira",
+      "A/B Testing"
+    ],
+    "typical_keywords": [
+      "product manager",
+      "product owner",
+      "roadmap",
+      "sprint",
+      "user stories",
+      "okr",
+      "kpi",
+      "strategy",
+      "metrics",
+      "backlog"
+    ],
+    "roadmap": [
+      {
+        "week": "Week 1-2",
+        "skill": "Product Discovery & Customer Research",
+        "focus": "Opportunity solution trees, user interview techniques, JTBD (Jobs To Be Done)",
+        "resources": [
+          "Continuous Discovery Habits by Teresa Torres",
+          "Inspired by Marty Cagan"
+        ]
+      },
+      {
+        "week": "Week 3-4",
+        "skill": "Agile Product Delivery & Backlog Refinement",
+        "focus": "User story slicing, acceptance criteria, sprint planning, retrospective facilitation",
+        "resources": [
+          "Scrum Guide by Ken Schwaber & Jeff Sutherland",
+          "Atlassian Agile Coach"
+        ]
+      },
+      {
+        "week": "Week 5-6",
+        "skill": "Product Analytics & Experimentation",
+        "focus": "Funnel analysis, cohort retention, North Star metric, A/B test interpretation",
+        "resources": [
+          "Amplitude Product Analytics Playbook",
+          "Mixpanel Guides"
+        ]
+      },
+      {
+        "week": "Week 7-8",
+        "skill": "Technical Literacy & System Design for PMs",
+        "focus": "API contracts, database models, technical debt trade-offs, architecture decisions",
+        "resources": [
+          "System Design for Tech PMs Guides",
+          "Tech for Non-Techies Tutorials"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "data_analyst",
+    "title": "Data Analyst",
+    "description": "Translates numbers into business intelligence by building analytical reports, automated dashboards, SQL queries, and diagnostic performance metrics.",
+    "required_skills": {
+      "SQL": 1.0,
+      "Python": 0.8,
+      "Data Analysis": 1.0,
+      "Statistics": 0.8,
+      "Tableau": 0.8,
+      "Communication": 0.8
+    },
+    "nice_to_have_skills": [
+      "Power BI",
+      "Pandas",
+      "Excel Analytics",
+      "A/B Testing",
+      "BigQuery",
+      "PostgreSQL"
+    ],
+    "typical_keywords": [
+      "data analyst",
+      "bi",
+      "business intelligence",
+      "reporting",
+      "sql",
+      "tableau",
+      "power bi",
+      "dashboard",
+      "kpi",
+      "metrics"
+    ],
+    "roadmap": [
+      {
+        "week": "Week 1-2",
+        "skill": "Advanced SQL for Business Analytics",
+        "focus": "Window functions, rank, lag/lead, conditional aggregations, subqueries",
+        "resources": [
+          "Mode Analytics Advanced SQL Tutorial",
+          "LeetCode SQL 50 Study Plan"
+        ]
+      },
+      {
+        "week": "Week 3-4",
+        "skill": "BI Dashboard Design (Tableau or Power BI)",
+        "focus": "LOD expressions, interactive drill-downs, calculated fields, dashboard design",
+        "resources": [
+          "Tableau Free Training Videos",
+          "Microsoft Power BI Guided Learning"
+        ]
+      },
+      {
+        "week": "Week 5-6",
+        "skill": "Python for Data Wrangling (Pandas)",
+        "focus": "Merging datasets, handling missing values, exploratory data visualization",
+        "resources": [
+          "Python for Data Analysis by Wes McKinney",
+          "Real Python Pandas Tutorials"
+        ]
+      },
+      {
+        "week": "Week 7-8",
+        "skill": "Business Metrics & Executive Storytelling",
+        "focus": "Customer acquisition cost (CAC), churn rate, LTV, presenting findings to leaders",
+        "resources": [
+          "Storytelling with Data Free Guides",
+          "Reforge Growth Metrics Summaries"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "business_analyst",
+    "title": "Business Analyst",
+    "description": "Bridges the gap between business stakeholders and technical development teams by mapping business processes, gathering functional requirements, and analyzing operational efficiency.",
+    "required_skills": {
+      "Communication": 1.0,
+      "Problem Solving": 1.0,
+      "Stakeholder Management": 0.9,
+      "Agile / Scrum": 0.8,
+      "SQL": 0.7
+    },
+    "nice_to_have_skills": [
+      "Data Analysis",
+      "Technical Writing",
+      "Product Management",
+      "Excel Analytics",
+      "Power BI",
+      "Jira"
+    ],
+    "typical_keywords": [
+      "business analyst",
+      "requirements",
+      "process mapping",
+      "workflow",
+      "functional specifications",
+      "gap analysis",
+      "use cases",
+      "stakeholder"
+    ],
+    "roadmap": [
+      {
+        "week": "Week 1-2",
+        "skill": "Requirements Engineering & User Stories",
+        "focus": "BRD (Business Requirements Document), user story writing, acceptance criteria",
+        "resources": [
+          "IIBA BABOK Guide Overview",
+          "Modern Business Analysis Frameworks"
+        ]
+      },
+      {
+        "week": "Week 3-4",
+        "skill": "Business Process Modeling (BPMN 2.0)",
+        "focus": "Swimlane diagrams, process flows, state charts, identifying workflow bottlenecks",
+        "resources": [
+          "BPMN.org Quickstart Guide",
+          "Lucidchart Process Mapping Guides"
+        ]
+      },
+      {
+        "week": "Week 5-6",
+        "skill": "SQL & Business Data Analysis",
+        "focus": "Querying databases, filtering business records, calculating operational KPIs",
+        "resources": [
+          "SQLBolt Interactive Tutorial"
+        ]
+      },
+      {
+        "week": "Week 7-8",
+        "skill": "Stakeholder Interviewing & Facilitation",
+        "focus": "Workshop facilitation, consensus building, change management communication",
+        "resources": [
+          "Harvard Business Review Negotiation & Facilitation Articles"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "database_administrator",
+    "title": "Database Administrator (DBA)",
+    "description": "Maintains database integrity, performance tuning, query optimization, high availability replication, backup recovery plans, and schema architectures.",
+    "required_skills": {
+      "SQL": 1.0,
+      "PostgreSQL": 1.0,
+      "Linux": 0.9,
+      "Data Modeling": 0.9,
+      "Git": 0.7
+    },
+    "nice_to_have_skills": [
+      "MySQL",
+      "Redis",
+      "Docker",
+      "Python",
+      "Shell Scripting",
+      "AWS RDS",
+      "Elasticsearch"
+    ],
+    "typical_keywords": [
+      "dba",
+      "database administrator",
+      "postgres",
+      "query optimization",
+      "indexing",
+      "replication",
+      "backup",
+      "performance tuning",
+      "sharding",
+      "acid"
+    ],
+    "roadmap": [
+      {
+        "week": "Week 1-2",
+        "skill": "Advanced PostgreSQL Performance Tuning",
+        "focus": "EXPLAIN ANALYZE, query planner, index types (B-Tree, GIN, GiST), work_mem configuration",
+        "resources": [
+          "PostgreSQL Official Performance Docs",
+          "Use The Index, Luke! Database Tuning Guide"
+        ]
+      },
+      {
+        "week": "Week 3-4",
+        "skill": "High Availability & Replication Strategies",
+        "focus": "Streaming replication, Patroni, connection pooling with PgBouncer, failover",
+        "resources": [
+          "PostgreSQL High Availability Official Guides",
+          "PgBouncer Documentation"
+        ]
+      },
+      {
+        "week": "Week 5-6",
+        "skill": "Disaster Recovery & Backup Automation",
+        "focus": "WAL archiving, point-in-time recovery (PITR), pg_backrest automated backups",
+        "resources": [
+          "pg_backrest User Guide",
+          "PostgreSQL Backup and Restore Docs"
+        ]
+      },
+      {
+        "week": "Week 7-8",
+        "skill": "Database Security, Sharding & Cloud Migration",
+        "focus": "Row-level security, SSL encryption, foreign data wrappers, AWS RDS administration",
+        "resources": [
+          "AWS RDS Best Practices Guide",
+          "Citus Data Distributed PostgreSQL Docs"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "site_reliability_engineer",
+    "title": "Site Reliability Engineer (SRE)",
+    "description": "Blends software engineering with systems operations to maintain high uptime, define SLOs/SLIs, automate failovers, and optimize large-scale distributed infrastructure.",
+    "required_skills": {
+      "Linux": 1.0,
+      "Python": 0.9,
+      "Kubernetes": 0.9,
+      "Docker": 0.9,
+      "CI/CD": 0.9,
+      "Git": 0.8
+    },
+    "nice_to_have_skills": [
+      "Prometheus",
+      "Grafana",
+      "Terraform",
+      "AWS",
+      "Shell Scripting",
+      "System Design",
+      "OpenTelemetry"
+    ],
+    "typical_keywords": [
+      "sre",
+      "site reliability",
+      "slo",
+      "sli",
+      "sla",
+      "error budget",
+      "post-mortem",
+      "observability",
+      "uptime",
+      "fault tolerance",
+      "incident response"
+    ],
+    "roadmap": [
+      {
+        "week": "Week 1-2",
+        "skill": "SRE Fundamentals: SLIs, SLOs & Error Budgets",
+        "focus": "Quantifying availability, managing alert fatigue, designing runbooks and post-mortems",
+        "resources": [
+          "Google Site Reliability Engineering Book (Free Online)",
+          "The Site Reliability Workbook"
+        ]
+      },
+      {
+        "week": "Week 3-4",
+        "skill": "Advanced Prometheus & Alerting",
+        "focus": "PromQL rate functions, histogram percentiles (p99/p95), Alertmanager routing",
+        "resources": [
+          "Robust Perception Prometheus Guides",
+          "Prometheus Best Practices"
+        ]
+      },
+      {
+        "week": "Week 5-6",
+        "skill": "Distributed Tracing with OpenTelemetry",
+        "focus": "Trace contexts, span propagation, Jaeger tracing, identifying latency bottlenecks",
+        "resources": [
+          "OpenTelemetry Official Documentation",
+          "Lightstep Tracing Tutorials"
+        ]
+      },
+      {
+        "week": "Week 7-8",
+        "skill": "Chaos Engineering & Resiliency",
+        "focus": "Injecting network latency, pod failures, testing automated recovery with Chaos Mesh",
+        "resources": [
+          "Principles of Chaos Engineering",
+          "Chaos Mesh Tutorials"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "security_engineer",
+    "title": "Application Security Engineer",
+    "description": "Embeds security into the software development lifecycle (DevSecOps), performs threat modeling, code audits, penetration testing, and security tool automation.",
+    "required_skills": {
+      "Security Best Practices": 1.0,
+      "Python": 0.9,
+      "Git": 0.8,
+      "Linux": 0.9,
+      "Docker": 0.8
+    },
+    "nice_to_have_skills": [
+      "CI/CD",
+      "Burp Suite",
+      "Static Code Analysis",
+      "AWS",
+      "OWASP",
+      "REST APIs",
+      "Cryptography"
+    ],
+    "typical_keywords": [
+      "security engineer",
+      "appsec",
+      "devsecops",
+      "threat modeling",
+      "sast",
+      "dast",
+      "penetration testing",
+      "vulnerability",
+      "owasp",
+      "cryptography"
+    ],
+    "roadmap": [
+      {
+        "week": "Week 1-2",
+        "skill": "Threat Modeling (STRIDE / DREAD)",
+        "focus": "Deconstructing system architectures, mapping attack vectors, mitigation planning",
+        "resources": [
+          "OWASP Threat Modeling Project",
+          "Threat Modeling: Designing for Security by Adam Shostack"
+        ]
+      },
+      {
+        "week": "Week 3-4",
+        "skill": "Automated SAST & DAST in CI/CD",
+        "focus": "Integrating Semgrep, Snyk, and OWASP ZAP into automated pull request checks",
+        "resources": [
+          "Semgrep Academy Free Courses",
+          "Snyk Developer Security Guides"
+        ]
+      },
+      {
+        "week": "Week 5-6",
+        "skill": "Container & Cloud Security Hardening",
+        "focus": "Trivy image scanning, distroless containers, runtime protection with Falco",
+        "resources": [
+          "Falco.org Runtime Security Documentation",
+          "Aqua Security Best Practices"
+        ]
+      },
+      {
+        "week": "Week 7-8",
+        "skill": "Cryptography & Authentication Standards",
+        "focus": "OAuth2, OIDC, JWT signing best practices, public key cryptography, TLS 1.3",
+        "resources": [
+          "OAuth 2.0 Simplified by Aaron Parecki",
+          "Cryptography I (Stanford Online)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "embedded_systems_engineer",
+    "title": "Embedded Systems & IoT Engineer",
+    "description": "Develops low-level firmware, device drivers, and real-time operating system applications for microcontrollers, sensors, and Internet of Things (IoT) hardware.",
+    "required_skills": {
+      "C": 1.0,
+      "C++": 1.0,
+      "Linux": 0.9,
+      "Git": 0.8
+    },
+    "nice_to_have_skills": [
+      "Python",
+      "Assembly",
+      "Rust",
+      "Docker",
+      "Shell Scripting",
+      "TCP/IP Networking"
+    ],
+    "typical_keywords": [
+      "embedded",
+      "firmware",
+      "microcontroller",
+      "rtos",
+      "arm",
+      "i2c",
+      "spi",
+      "uart",
+      "hardware",
+      "c/c++",
+      "driver",
+      "iot"
+    ],
+    "roadmap": [
+      {
+        "week": "Week 1-2",
+        "skill": "Bare-Metal C & Hardware Communication",
+        "focus": "Register-level programming, memory-mapped I/O, UART, SPI, I2C bus protocols",
+        "resources": [
+          "Embedded Systems Programming with ARM Cortex-M",
+          "Making Embedded Systems by Elecia White"
+        ]
+      },
+      {
+        "week": "Week 3-4",
+        "skill": "Real-Time Operating Systems (FreeRTOS)",
+        "focus": "Tasks, queues, semaphores, mutexes, priority inversion, context switching",
+        "resources": [
+          "Mastering the FreeRTOS Real Time Kernel (Free PDF)",
+          "FreeRTOS Official Tutorials"
+        ]
+      },
+      {
+        "week": "Week 5-6",
+        "skill": "Embedded Linux & Device Drivers",
+        "focus": "Kernel modules, device trees, building custom Linux distributions with Yocto",
+        "resources": [
+          "The Linux Kernel Module Programming Guide",
+          "Yocto Project Quick Build"
+        ]
+      },
+      {
+        "week": "Week 7-8",
+        "skill": "Modern Embedded Development with Rust",
+        "focus": "Embedded Rust book, no_std environments, memory-safe embedded concurrency",
+        "resources": [
+          "The Embedded Rust Book",
+          "Discovery: Microcontroller Exploration in Rust"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block title %}Upload Resume - ResumeIQ{% endblock %}
+
+{% block content %}
+<div style="max-width: 800px; margin: 1.5rem auto;">
+  <div style="margin-bottom: 2rem;">
+    <h1 style="font-size: 2.2rem; font-weight: 800;">Analyze Your Resume</h1>
+    <p style="color: var(--text-secondary); margin-top: 0.35rem;">
+      Upload your resume to discover best-fit tech roles, identify missing critical skills, and audit ATS compatibility.
+    </p>
+  </div>
+
+  <form id="analyze-form">
+    <!-- Drag & Drop Upload Zone -->
+    <div class="card" style="margin-bottom: 2rem;">
+      <div id="drop-zone" style="border: 2px dashed var(--border-color); border-radius: var(--radius-lg); padding: 3rem 1.5rem; text-align: center; cursor: pointer; background-color: var(--bg-subtle);">
+        <input type="file" id="file-input" accept=".pdf,.docx" style="display: none;">
+        <div style="font-size: 3rem; margin-bottom: 1rem;">📄</div>
+        <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.5rem;">Click to upload or drag & drop</h3>
+        <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 0.5rem;">PDF or Word (.docx) files only</p>
+        <span class="badge" style="background: var(--bg-card); border: 1px solid var(--border-color); color: var(--text-muted);">Max file size: 5 MB</span>
+      </div>
+
+      <!-- Selected File Display Card -->
+      <div id="selected-file-info" style="display: none; align-items: center; justify-content: space-between; padding: 1.25rem; border: 1px solid #10b981; border-radius: var(--radius-md); background: #ecfdf5;">
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <span style="font-size: 1.8rem;">📎</span>
+          <div>
+            <h4 id="file-name-display" style="color: #065f46; font-weight: 700;">resume.pdf</h4>
+            <span style="font-size: 0.85rem; color: #047857;">Ready for analysis</span>
+          </div>
+        </div>
+        <button type="button" id="remove-file-btn" class="btn btn-outline" style="padding: 0.35rem 0.75rem; font-size: 0.85rem; color: var(--danger);">Change File</button>
+      </div>
+    </div>
+
+    <!-- Optional Target Role & Job Description -->
+    <div class="card" style="margin-bottom: 2rem;">
+      <h3 style="font-size: 1.15rem; font-weight: 700; margin-bottom: 1rem;">Optional: Target Role or Specific Job Description</h3>
+      <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1.25rem;">
+        If left blank, ResumeIQ automatically calculates and compares your skills against the top matching role.
+      </p>
+
+      <div style="margin-bottom: 1.25rem;">
+        <label style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.4rem;">Select Target Role (Optional)</label>
+        <select id="target-role-select" style="width: 100%; padding: 0.75rem 1rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); background: var(--bg-card); color: var(--text-primary);">
+          <option value="">-- Let AI Predict the Best Role Automatically --</option>
+        </select>
+      </div>
+
+      <div>
+        <label style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.4rem;">Or Paste Specific Job Description (Optional)</label>
+        <textarea id="custom-jd-input" rows="4" placeholder="Paste the job description or requirements here to run a custom gap analysis..." style="width: 100%; padding: 0.75rem 1rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); background: var(--bg-card); color: var(--text-primary); font-family: inherit; resize: vertical;"></textarea>
+      </div>
+    </div>
+
+    <!-- Submit Button & Loading State -->
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+      <button type="submit" id="submit-btn" class="btn btn-primary" style="width: 100%; padding: 0.9rem; font-size: 1.1rem; box-shadow: var(--shadow-md);">
+        🚀 Analyze Resume & Predict Gaps
+      </button>
+
+      <div id="loading-indicator" style="display: none; align-items: center; gap: 0.75rem; color: var(--primary); font-weight: 600;">
+        <svg style="animation: spin 1s linear infinite; width: 24px; height: 24px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <circle cx="12" cy="12" r="10" stroke-opacity="0.25"></circle>
+          <path d="M12 2a10 10 0 0 1 10 10"></path>
+        </svg>
+        <span>Running spaCy NLP parsing & semantic embeddings engine...</span>
+      </div>
+    </div>
+  </form>
+</div>
+
+<style>
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+</style>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/upload.js') }}"></script>
+{% endblock %}
+

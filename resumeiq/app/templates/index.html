@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block title %}ResumeIQ - AI-Powered Resume Analyzer & Skill Gap Predictor{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <span class="badge badge-primary" style="margin-bottom: 1rem;">Powered by spaCy + Sentence Transformers</span>
+  <h1>Accelerate Your Career with <span>AI Resume Intelligence</span></h1>
+  <p>Instantly discover which tech roles match your skills, predict critical skill gaps, simulate ATS scoring, and generate a customized week-by-week learning roadmap.</p>
+  <div style="display: flex; justify-content: center; gap: 1rem;">
+    <a href="/upload" class="btn btn-primary" style="padding: 0.8rem 1.8rem; font-size: 1.05rem;">Analyze Resume Free</a>
+    <a href="/history" class="btn btn-outline" style="padding: 0.8rem 1.5rem; font-size: 1.05rem;">View Past Scans</a>
+  </div>
+</section>
+
+<!-- Features Grid -->
+<div class="grid-3" style="margin-top: 3rem;">
+  <div class="card">
+    <div style="font-size: 2rem; margin-bottom: 0.75rem;">🎯</div>
+    <h3 style="margin-bottom: 0.5rem;">Role Suitability Prediction</h3>
+    <p style="color: var(--text-secondary); font-size: 0.95rem;">
+      Hybrid semantic and skill-weighted AI engine scores your resume across 20+ tech roles (Full-Stack, ML Engineer, DevOps, etc.) with transparent explanations.
+    </p>
+  </div>
+
+  <div class="card">
+    <div style="font-size: 2rem; margin-bottom: 0.75rem;">🧩</div>
+    <h3 style="margin-bottom: 0.5rem;">Skill Gap Analysis</h3>
+    <p style="color: var(--text-secondary); font-size: 0.95rem;">
+      Select a target dream role or paste any Job Description to uncover missing critical vs. bonus skills, gap severity, and curated learning roadmaps.
+    </p>
+  </div>
+
+  <div class="card">
+    <div style="font-size: 2rem; margin-bottom: 0.75rem;">📊</div>
+    <h3 style="margin-bottom: 0.5rem;">ATS Readiness Score (0-100)</h3>
+    <p style="color: var(--text-secondary); font-size: 0.95rem;">
+      In-depth audit of measurable metrics, action verbs, keyword density, and formatting red flags with instant actionable advice to beat recruiter filters.
+    </p>
+  </div>
+</div>
+
+<!-- Architecture & Benefits Highlight -->
+<div class="card" style="margin-top: 2.5rem; background: linear-gradient(135deg, var(--bg-card), var(--bg-subtle));">
+  <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 2rem;">
+    <div style="max-width: 600px;">
+      <h2 style="margin-bottom: 0.75rem;">Built for High Accuracy & Speed</h2>
+      <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
+        ResumeIQ uses a comprehensive 500+ tech skill taxonomy and precomputed sentence embeddings, providing instant, repeatable, deterministic analysis without hallucinations.
+      </p>
+      <a href="/upload" class="btn btn-primary">Start Analyzing Now →</a>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+      <div style="display: flex; align-items: center; gap: 0.5rem;">
+        <span style="color: var(--success); font-weight: bold;">✓</span>
+        <span>Drag & drop PDF & DOCX resumes</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 0.5rem;">
+        <span style="color: var(--success); font-weight: bold;">✓</span>
+        <span>Interactive Chart.js radar & bar graphs</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 0.5rem;">
+        <span style="color: var(--success); font-weight: bold;">✓</span>
+        <span>Instant PDF export for recruiter presentations</span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 0.5rem;">
+        <span style="color: var(--success); font-weight: bold;">✓</span>
+        <span>Secure Firebase authentication & Firestore history</span>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+

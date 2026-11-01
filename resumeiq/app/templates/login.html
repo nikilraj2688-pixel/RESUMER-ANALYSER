@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}Sign In - ResumeIQ{% endblock %}
+
+{% block content %}
+<div style="max-width: 440px; margin: 3rem auto;">
+  <div class="card">
+    <div style="text-align: center; margin-bottom: 2rem;">
+      <h2 style="font-size: 1.75rem; font-weight: 800;">Welcome to ResumeIQ</h2>
+      <p style="color: var(--text-secondary); font-size: 0.95rem; margin-top: 0.35rem;">
+        Sign in with your Firebase account or quick demo.
+      </p>
+    </div>
+
+    <!-- Quick Demo Mode Sign-In -->
+    <button type="button" onclick="Auth.loginDemo('demo.candidate@resumeiq.ai')" class="btn btn-outline" style="width: 100%; margin-bottom: 1rem; border-color: var(--primary); color: var(--primary);">
+      ⚡ Quick Test Demo Account (No Sign-up needed)
+    </button>
+
+    <button type="button" onclick="Auth.loginWithGoogle()" class="btn btn-primary" style="width: 100%; display: flex; gap: 0.6rem; justify-content: center; align-items: center; margin-bottom: 1.25rem;">
+      <svg width="18" height="18" viewBox="0 0 24 24"><path fill="#ffffff" d="M23.745 12.27c0-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.66-5.17 3.66-9.17z"/><path fill="#ffffff" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.12 0-5.77-2.1-6.72-4.93H1.25v3.15C3.26 21.36 7.35 24 12 24z"/><path fill="#ffffff" d="M5.28 14.27c-.25-.72-.38-1.49-.38-2.27s.13-1.55.38-2.27V6.58H1.25C.45 8.18 0 9.97 0 12s.45 3.82 1.25 5.42l4.03-3.15z"/><path fill="#ffffff" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.35 0 3.26 2.64 1.25 6.58l4.03 3.15c.95-2.83 3.6-4.98 6.72-4.98z"/></svg>
+      Continue with Google
+    </button>
+
+    <div style="text-align: center; margin: 1.25rem 0; color: var(--text-muted); font-size: 0.85rem; position: relative;">
+      <span>OR USE EMAIL</span>
+    </div>
+
+    <form id="login-form" onsubmit="event.preventDefault(); Auth.loginWithEmail(document.getElementById('email-input').value, document.getElementById('password-input').value);">
+      <div style="margin-bottom: 1rem;">
+        <label style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.35rem;">Email Address</label>
+        <input type="email" id="email-input" required placeholder="you@domain.com" style="width: 100%; padding: 0.7rem 1rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); background: var(--bg-card); color: var(--text-primary);">
+      </div>
+
+      <div style="margin-bottom: 1.5rem;">
+        <label style="display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.35rem;">Password</label>
+        <input type="password" id="password-input" required placeholder="••••••••" style="width: 100%; padding: 0.7rem 1rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); background: var(--bg-card); color: var(--text-primary);">
+      </div>
+
+      <button type="submit" class="btn btn-outline" style="width: 100%;">
+        Sign In / Sign Up with Email
+      </button>
+    </form>
+  </div>
+</div>
+{% endblock %}

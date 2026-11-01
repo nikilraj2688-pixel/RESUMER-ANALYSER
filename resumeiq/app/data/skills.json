@@ -1,0 +1,2414 @@
+{
+  "languages": [
+    {
+      "name": "Python",
+      "aliases": [
+        "python3",
+        "py",
+        "python 3"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "aliases": [
+        "js",
+        "ecmascript",
+        "es6",
+        "es2020"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "aliases": [
+        "ts"
+      ]
+    },
+    {
+      "name": "Java",
+      "aliases": [
+        "java 8",
+        "java 11",
+        "java 17",
+        "core java"
+      ]
+    },
+    {
+      "name": "C++",
+      "aliases": [
+        "cpp",
+        "c plus plus"
+      ]
+    },
+    {
+      "name": "C",
+      "aliases": [
+        "c language",
+        "ansi c"
+      ]
+    },
+    {
+      "name": "C#",
+      "aliases": [
+        "csharp",
+        "c-sharp",
+        ".net c#"
+      ]
+    },
+    {
+      "name": "Go",
+      "aliases": [
+        "golang"
+      ]
+    },
+    {
+      "name": "Rust",
+      "aliases": [
+        "rustlang"
+      ]
+    },
+    {
+      "name": "PHP",
+      "aliases": [
+        "php7",
+        "php8"
+      ]
+    },
+    {
+      "name": "Ruby",
+      "aliases": [
+        "ruby on rails lang",
+        "ruby 3"
+      ]
+    },
+    {
+      "name": "Swift",
+      "aliases": [
+        "swift 5"
+      ]
+    },
+    {
+      "name": "Kotlin",
+      "aliases": [
+        "kotlin android"
+      ]
+    },
+    {
+      "name": "R",
+      "aliases": [
+        "r language",
+        "r-project"
+      ]
+    },
+    {
+      "name": "Scala",
+      "aliases": []
+    },
+    {
+      "name": "Dart",
+      "aliases": [
+        "dartlang"
+      ]
+    },
+    {
+      "name": "SQL",
+      "aliases": [
+        "structured query language",
+        "t-sql",
+        "pl/sql"
+      ]
+    },
+    {
+      "name": "HTML5",
+      "aliases": [
+        "html",
+        "html 5"
+      ]
+    },
+    {
+      "name": "CSS3",
+      "aliases": [
+        "css",
+        "css 3",
+        "scss",
+        "sass",
+        "less"
+      ]
+    },
+    {
+      "name": "Shell Scripting",
+      "aliases": [
+        "bash",
+        "sh",
+        "zsh",
+        "powershell",
+        "shell script",
+        "shell"
+      ]
+    },
+    {
+      "name": "Perl",
+      "aliases": []
+    },
+    {
+      "name": "Haskell",
+      "aliases": []
+    },
+    {
+      "name": "Lua",
+      "aliases": []
+    },
+    {
+      "name": "MATLAB",
+      "aliases": [
+        "matlab/simulink"
+      ]
+    },
+    {
+      "name": "Solidity",
+      "aliases": [
+        "smart contracts solidity"
+      ]
+    },
+    {
+      "name": "Elixir",
+      "aliases": [
+        "phoenix elixir"
+      ]
+    },
+    {
+      "name": "Julia",
+      "aliases": []
+    },
+    {
+      "name": "VBA",
+      "aliases": [
+        "visual basic",
+        "vba excel"
+      ]
+    },
+    {
+      "name": "Cobol",
+      "aliases": []
+    },
+    {
+      "name": "Fortran",
+      "aliases": []
+    },
+    {
+      "name": "Groovy",
+      "aliases": []
+    },
+    {
+      "name": "Assembly",
+      "aliases": [
+        "x86 assembly",
+        "arm assembly"
+      ]
+    },
+    {
+      "name": "F#",
+      "aliases": []
+    },
+    {
+      "name": "Clojure",
+      "aliases": []
+    },
+    {
+      "name": "ActionScript",
+      "aliases": []
+    },
+    {
+      "name": "Racket",
+      "aliases": []
+    },
+    {
+      "name": "Apex",
+      "aliases": [
+        "salesforce apex"
+      ]
+    },
+    {
+      "name": "Solr",
+      "aliases": []
+    },
+    {
+      "name": "PowerShell",
+      "aliases": [
+        "posh"
+      ]
+    },
+    {
+      "name": "Bash Scripting",
+      "aliases": [
+        "bash script"
+      ]
+    },
+    {
+      "name": "Tcl",
+      "aliases": []
+    },
+    {
+      "name": "Erlang",
+      "aliases": []
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "React",
+      "aliases": [
+        "reactjs",
+        "react.js"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "aliases": [
+        "nextjs",
+        "next js"
+      ]
+    },
+    {
+      "name": "Vue.js",
+      "aliases": [
+        "vue",
+        "vuejs",
+        "vue 3",
+        "vue 2"
+      ]
+    },
+    {
+      "name": "Nuxt.js",
+      "aliases": [
+        "nuxtjs",
+        "nuxt"
+      ]
+    },
+    {
+      "name": "Angular",
+      "aliases": [
+        "angularjs",
+        "angular 2+",
+        "angular 14"
+      ]
+    },
+    {
+      "name": "Svelte",
+      "aliases": [
+        "sveltejs",
+        "sveltekit"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "aliases": [
+        "nodejs",
+        "node"
+      ]
+    },
+    {
+      "name": "Express.js",
+      "aliases": [
+        "express",
+        "expressjs"
+      ]
+    },
+    {
+      "name": "NestJS",
+      "aliases": [
+        "nest.js",
+        "nest js"
+      ]
+    },
+    {
+      "name": "FastAPI",
+      "aliases": [
+        "fast api"
+      ]
+    },
+    {
+      "name": "Flask",
+      "aliases": [
+        "flask python"
+      ]
+    },
+    {
+      "name": "Django",
+      "aliases": [
+        "django rest framework",
+        "drf"
+      ]
+    },
+    {
+      "name": "Spring Boot",
+      "aliases": [
+        "spring",
+        "spring framework",
+        "springboot"
+      ]
+    },
+    {
+      "name": "ASP.NET Core",
+      "aliases": [
+        "asp.net",
+        ".net core",
+        "dotnet core",
+        ".net 8",
+        ".net 6"
+      ]
+    },
+    {
+      "name": "Ruby on Rails",
+      "aliases": [
+        "rails",
+        "ror"
+      ]
+    },
+    {
+      "name": "Laravel",
+      "aliases": [
+        "laravel php"
+      ]
+    },
+    {
+      "name": "Tailwind CSS",
+      "aliases": [
+        "tailwind",
+        "tailwindcss"
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "aliases": [
+        "bootstrap 5",
+        "bootstrap 4"
+      ]
+    },
+    {
+      "name": "Material-UI",
+      "aliases": [
+        "mui",
+        "material ui"
+      ]
+    },
+    {
+      "name": "Redux",
+      "aliases": [
+        "redux toolkit",
+        "rtk"
+      ]
+    },
+    {
+      "name": "GraphQL",
+      "aliases": [
+        "apollo graphql",
+        "apollo client",
+        "relay"
+      ]
+    },
+    {
+      "name": "REST APIs",
+      "aliases": [
+        "rest api",
+        "restful api",
+        "restful services",
+        "rest web services"
+      ]
+    },
+    {
+      "name": "gRPC",
+      "aliases": [
+        "protocol buffers",
+        "protobuf"
+      ]
+    },
+    {
+      "name": "WebSocket",
+      "aliases": [
+        "websockets",
+        "socket.io"
+      ]
+    },
+    {
+      "name": "jQuery",
+      "aliases": []
+    },
+    {
+      "name": "Electron",
+      "aliases": [
+        "electron.js"
+      ]
+    },
+    {
+      "name": "React Native",
+      "aliases": [
+        "rn"
+      ]
+    },
+    {
+      "name": "Flutter",
+      "aliases": [
+        "flutter sdk"
+      ]
+    },
+    {
+      "name": "Flask-RESTful",
+      "aliases": []
+    },
+    {
+      "name": "CherryPy",
+      "aliases": []
+    },
+    {
+      "name": "Tornado",
+      "aliases": []
+    },
+    {
+      "name": "Bottle",
+      "aliases": []
+    },
+    {
+      "name": "Pyramid",
+      "aliases": []
+    },
+    {
+      "name": "Falcon",
+      "aliases": []
+    },
+    {
+      "name": "Chai",
+      "aliases": []
+    },
+    {
+      "name": "Mocha",
+      "aliases": []
+    },
+    {
+      "name": "Jest",
+      "aliases": [
+        "jest testing"
+      ]
+    },
+    {
+      "name": "Cypress",
+      "aliases": [
+        "cypress e2e"
+      ]
+    },
+    {
+      "name": "Playwright",
+      "aliases": []
+    },
+    {
+      "name": "Puppeteer",
+      "aliases": []
+    },
+    {
+      "name": "Selenium",
+      "aliases": [
+        "selenium webdriver"
+      ]
+    },
+    {
+      "name": "Appium",
+      "aliases": []
+    },
+    {
+      "name": "Koa",
+      "aliases": []
+    },
+    {
+      "name": "Hapi.js",
+      "aliases": []
+    },
+    {
+      "name": "Fastify",
+      "aliases": []
+    },
+    {
+      "name": "Quarkus",
+      "aliases": []
+    },
+    {
+      "name": "Micronaut",
+      "aliases": []
+    },
+    {
+      "name": "Struts",
+      "aliases": []
+    },
+    {
+      "name": "Vaadin",
+      "aliases": []
+    },
+    {
+      "name": "Blazor",
+      "aliases": []
+    },
+    {
+      "name": "Xamarin",
+      "aliases": [
+        "xamarin forms"
+      ]
+    },
+    {
+      "name": "Ionic",
+      "aliases": []
+    },
+    {
+      "name": "Capacitor",
+      "aliases": []
+    },
+    {
+      "name": "Cordova",
+      "aliases": []
+    },
+    {
+      "name": "Qt",
+      "aliases": [
+        "pyqt",
+        "pyside"
+      ]
+    },
+    {
+      "name": "Tkinter",
+      "aliases": []
+    },
+    {
+      "name": "WxWidgets",
+      "aliases": []
+    },
+    {
+      "name": "Gatsby",
+      "aliases": []
+    },
+    {
+      "name": "Astro",
+      "aliases": []
+    },
+    {
+      "name": "Remix",
+      "aliases": [
+        "remix.run"
+      ]
+    },
+    {
+      "name": "SolidJS",
+      "aliases": [
+        "solid.js"
+      ]
+    },
+    {
+      "name": "Alpine.js",
+      "aliases": [
+        "alpinejs"
+      ]
+    },
+    {
+      "name": "Lit",
+      "aliases": [
+        "lit-html"
+      ]
+    },
+    {
+      "name": "Storybook",
+      "aliases": []
+    },
+    {
+      "name": "Webpack",
+      "aliases": []
+    },
+    {
+      "name": "Vite",
+      "aliases": []
+    },
+    {
+      "name": "Rollup",
+      "aliases": []
+    },
+    {
+      "name": "Parcel",
+      "aliases": []
+    },
+    {
+      "name": "Babel",
+      "aliases": []
+    },
+    {
+      "name": "ESLint",
+      "aliases": []
+    },
+    {
+      "name": "Prettier",
+      "aliases": []
+    },
+    {
+      "name": "Zustand",
+      "aliases": []
+    },
+    {
+      "name": "Recoil",
+      "aliases": []
+    },
+    {
+      "name": "MobX",
+      "aliases": []
+    },
+    {
+      "name": "TanStack Query",
+      "aliases": [
+        "react-query",
+        "react query"
+      ]
+    },
+    {
+      "name": "Axios",
+      "aliases": []
+    },
+    {
+      "name": "RxJS",
+      "aliases": []
+    },
+    {
+      "name": "Socket.IO",
+      "aliases": []
+    }
+  ],
+  "cloud": [
+    {
+      "name": "AWS",
+      "aliases": [
+        "amazon web services",
+        "aws cloud"
+      ]
+    },
+    {
+      "name": "Azure",
+      "aliases": [
+        "microsoft azure",
+        "azure cloud"
+      ]
+    },
+    {
+      "name": "Google Cloud Platform",
+      "aliases": [
+        "gcp",
+        "google cloud"
+      ]
+    },
+    {
+      "name": "Firebase",
+      "aliases": [
+        "firebase auth",
+        "firestore",
+        "firebase hosting"
+      ]
+    },
+    {
+      "name": "AWS Lambda",
+      "aliases": [
+        "lambda",
+        "serverless lambda"
+      ]
+    },
+    {
+      "name": "Amazon S3",
+      "aliases": [
+        "s3",
+        "aws s3"
+      ]
+    },
+    {
+      "name": "Amazon EC2",
+      "aliases": [
+        "ec2",
+        "aws ec2"
+      ]
+    },
+    {
+      "name": "AWS ECS",
+      "aliases": [
+        "ecs",
+        "fargate"
+      ]
+    },
+    {
+      "name": "AWS EKS",
+      "aliases": [
+        "eks"
+      ]
+    },
+    {
+      "name": "Azure DevOps",
+      "aliases": [
+        "azure pipelines"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "aliases": [
+        "cloudflare workers",
+        "cloudflare cdn"
+      ]
+    },
+    {
+      "name": "Heroku",
+      "aliases": []
+    },
+    {
+      "name": "Vercel",
+      "aliases": []
+    },
+    {
+      "name": "Netlify",
+      "aliases": []
+    },
+    {
+      "name": "DigitalOcean",
+      "aliases": [
+        "digital ocean"
+      ]
+    },
+    {
+      "name": "Terraform",
+      "aliases": [
+        "hashicorp terraform",
+        "tf"
+      ]
+    },
+    {
+      "name": "CloudFormation",
+      "aliases": [
+        "aws cloudformation"
+      ]
+    },
+    {
+      "name": "Ansible",
+      "aliases": [
+        "ansible playbooks"
+      ]
+    },
+    {
+      "name": "Serverless Framework",
+      "aliases": [
+        "serverless",
+        "sam",
+        "aws sam"
+      ]
+    },
+    {
+      "name": "AWS CloudWatch",
+      "aliases": [
+        "cloudwatch"
+      ]
+    },
+    {
+      "name": "AWS SNS",
+      "aliases": [
+        "sns"
+      ]
+    },
+    {
+      "name": "AWS SQS",
+      "aliases": [
+        "sqs"
+      ]
+    },
+    {
+      "name": "AWS DynamoDB",
+      "aliases": []
+    },
+    {
+      "name": "AWS IAM",
+      "aliases": [
+        "iam policies"
+      ]
+    },
+    {
+      "name": "AWS VPC",
+      "aliases": [
+        "vpc peering"
+      ]
+    },
+    {
+      "name": "AWS Route53",
+      "aliases": [
+        "route 53"
+      ]
+    },
+    {
+      "name": "AWS RDS",
+      "aliases": [
+        "rds postgres",
+        "rds mysql"
+      ]
+    },
+    {
+      "name": "AWS Step Functions",
+      "aliases": [
+        "step functions"
+      ]
+    },
+    {
+      "name": "AWS EventBridge",
+      "aliases": [
+        "eventbridge"
+      ]
+    },
+    {
+      "name": "AWS CloudFront",
+      "aliases": [
+        "cloudfront cdn"
+      ]
+    },
+    {
+      "name": "AWS Cognito",
+      "aliases": [
+        "cognito"
+      ]
+    },
+    {
+      "name": "AWS Glue",
+      "aliases": [
+        "glue catalog"
+      ]
+    },
+    {
+      "name": "AWS Athena",
+      "aliases": [
+        "amazon athena"
+      ]
+    },
+    {
+      "name": "AWS Redshift",
+      "aliases": [
+        "redshift data warehouse"
+      ]
+    },
+    {
+      "name": "AWS EMR",
+      "aliases": [
+        "elastic mapreduce"
+      ]
+    },
+    {
+      "name": "Azure Blob Storage",
+      "aliases": [
+        "blob storage"
+      ]
+    },
+    {
+      "name": "Azure Functions",
+      "aliases": [
+        "azure function apps"
+      ]
+    },
+    {
+      "name": "Azure Virtual Machines",
+      "aliases": [
+        "azure vms"
+      ]
+    },
+    {
+      "name": "Azure Kubernetes Service",
+      "aliases": [
+        "aks"
+      ]
+    },
+    {
+      "name": "Azure Cosmos DB",
+      "aliases": [
+        "cosmos db"
+      ]
+    },
+    {
+      "name": "Azure SQL Database",
+      "aliases": [
+        "azure sql"
+      ]
+    },
+    {
+      "name": "Azure Active Directory",
+      "aliases": [
+        "azure ad",
+        "entra id"
+      ]
+    },
+    {
+      "name": "Azure Key Vault",
+      "aliases": [
+        "key vault"
+      ]
+    },
+    {
+      "name": "Azure Logic Apps",
+      "aliases": []
+    },
+    {
+      "name": "Azure Data Factory",
+      "aliases": [
+        "adf"
+      ]
+    },
+    {
+      "name": "Azure Synapse",
+      "aliases": [
+        "synapse analytics"
+      ]
+    },
+    {
+      "name": "GCP Cloud Storage",
+      "aliases": [
+        "gcs"
+      ]
+    },
+    {
+      "name": "GCP Compute Engine",
+      "aliases": [
+        "gce"
+      ]
+    },
+    {
+      "name": "GCP Cloud Run",
+      "aliases": [
+        "cloud run"
+      ]
+    },
+    {
+      "name": "GCP Cloud Functions",
+      "aliases": [
+        "cloud functions"
+      ]
+    },
+    {
+      "name": "GCP GKE",
+      "aliases": [
+        "google kubernetes engine"
+      ]
+    },
+    {
+      "name": "GCP Pub/Sub",
+      "aliases": [
+        "google pubsub"
+      ]
+    },
+    {
+      "name": "GCP Cloud Spanner",
+      "aliases": [
+        "cloud spanner"
+      ]
+    },
+    {
+      "name": "GCP Cloud SQL",
+      "aliases": [
+        "cloud sql"
+      ]
+    },
+    {
+      "name": "GCP Dataflow",
+      "aliases": [
+        "apache beam gcp"
+      ]
+    },
+    {
+      "name": "GCP Dataproc",
+      "aliases": [
+        "dataproc spark"
+      ]
+    },
+    {
+      "name": "GCP Vertex AI",
+      "aliases": [
+        "vertex ai"
+      ]
+    },
+    {
+      "name": "Pulumi",
+      "aliases": []
+    },
+    {
+      "name": "OpenStack",
+      "aliases": []
+    },
+    {
+      "name": "VMware",
+      "aliases": [
+        "vsphere",
+        "esxi"
+      ]
+    }
+  ],
+  "data_ml": [
+    {
+      "name": "Machine Learning",
+      "aliases": [
+        "ml",
+        "statistical learning"
+      ]
+    },
+    {
+      "name": "Deep Learning",
+      "aliases": [
+        "dl",
+        "neural networks",
+        "ann",
+        "dnn"
+      ]
+    },
+    {
+      "name": "Artificial Intelligence",
+      "aliases": [
+        "ai"
+      ]
+    },
+    {
+      "name": "NLP",
+      "aliases": [
+        "natural language processing",
+        "computational linguistics"
+      ]
+    },
+    {
+      "name": "Computer Vision",
+      "aliases": [
+        "cv",
+        "image processing",
+        "opencv"
+      ]
+    },
+    {
+      "name": "TensorFlow",
+      "aliases": [
+        "tf",
+        "tensorflow 2"
+      ]
+    },
+    {
+      "name": "PyTorch",
+      "aliases": [
+        "torch"
+      ]
+    },
+    {
+      "name": "Keras",
+      "aliases": []
+    },
+    {
+      "name": "Scikit-Learn",
+      "aliases": [
+        "sklearn",
+        "scikit learn"
+      ]
+    },
+    {
+      "name": "Pandas",
+      "aliases": [
+        "python pandas"
+      ]
+    },
+    {
+      "name": "NumPy",
+      "aliases": [
+        "numpy array"
+      ]
+    },
+    {
+      "name": "SciPy",
+      "aliases": []
+    },
+    {
+      "name": "Hugging Face",
+      "aliases": [
+        "huggingface",
+        "transformers"
+      ]
+    },
+    {
+      "name": "LangChain",
+      "aliases": [
+        "lang chain",
+        "langgraph"
+      ]
+    },
+    {
+      "name": "LlamaIndex",
+      "aliases": [
+        "llama index"
+      ]
+    },
+    {
+      "name": "LLMs",
+      "aliases": [
+        "large language models",
+        "gpt-4",
+        "gemini",
+        "claude",
+        "generative ai",
+        "genai"
+      ]
+    },
+    {
+      "name": "RAG",
+      "aliases": [
+        "retrieval augmented generation",
+        "retrieval-augmented generation"
+      ]
+    },
+    {
+      "name": "spaCy",
+      "aliases": [
+        "spacy nlp"
+      ]
+    },
+    {
+      "name": "NLTK",
+      "aliases": [
+        "natural language toolkit"
+      ]
+    },
+    {
+      "name": "Apache Spark",
+      "aliases": [
+        "spark",
+        "pyspark"
+      ]
+    },
+    {
+      "name": "Hadoop",
+      "aliases": [
+        "hdfs",
+        "mapreduce"
+      ]
+    },
+    {
+      "name": "Kafka",
+      "aliases": [
+        "apache kafka"
+      ]
+    },
+    {
+      "name": "Airflow",
+      "aliases": [
+        "apache airflow"
+      ]
+    },
+    {
+      "name": "dbt",
+      "aliases": [
+        "data build tool"
+      ]
+    },
+    {
+      "name": "Tableau",
+      "aliases": [
+        "tableau desktop"
+      ]
+    },
+    {
+      "name": "Power BI",
+      "aliases": [
+        "powerbi",
+        "microsoft power bi"
+      ]
+    },
+    {
+      "name": "Matplotlib",
+      "aliases": []
+    },
+    {
+      "name": "Seaborn",
+      "aliases": []
+    },
+    {
+      "name": "Data Modeling",
+      "aliases": [
+        "dimensional modeling",
+        "star schema",
+        "snowflake schema"
+      ]
+    },
+    {
+      "name": "ETL",
+      "aliases": [
+        "extract transform load",
+        "etl pipeline",
+        "elt"
+      ]
+    },
+    {
+      "name": "BigQuery",
+      "aliases": [
+        "google bigquery"
+      ]
+    },
+    {
+      "name": "Snowflake",
+      "aliases": [
+        "snowflake data warehouse"
+      ]
+    },
+    {
+      "name": "Databricks",
+      "aliases": [
+        "databricks lakehouse"
+      ]
+    },
+    {
+      "name": "Vector Databases",
+      "aliases": [
+        "pinecone",
+        "chroma",
+        "weaviate",
+        "milvus",
+        "qdrant",
+        "faiss"
+      ]
+    },
+    {
+      "name": "MLOps",
+      "aliases": [
+        "mlflow",
+        "kubeflow",
+        "dvc",
+        "weights & biases",
+        "wandb"
+      ]
+    },
+    {
+      "name": "Model Deployment",
+      "aliases": [
+        "model serving",
+        "triton",
+        "onnx",
+        "torchserve"
+      ]
+    },
+    {
+      "name": "Feature Engineering",
+      "aliases": [
+        "feature selection"
+      ]
+    },
+    {
+      "name": "Data Analysis",
+      "aliases": [
+        "eda",
+        "exploratory data analysis"
+      ]
+    },
+    {
+      "name": "Statistics",
+      "aliases": [
+        "hypothesis testing",
+        "a/b testing",
+        "bayesian",
+        "probability"
+      ]
+    },
+    {
+      "name": "OpenCV",
+      "aliases": [
+        "computer vision opencv"
+      ]
+    },
+    {
+      "name": "YOLO",
+      "aliases": [
+        "object detection yolo",
+        "yolov8",
+        "yolov5"
+      ]
+    },
+    {
+      "name": "ResNet",
+      "aliases": []
+    },
+    {
+      "name": "BERT",
+      "aliases": [
+        "roberta",
+        "deberta"
+      ]
+    },
+    {
+      "name": "GPT",
+      "aliases": [
+        "gpt-3",
+        "gpt-4o"
+      ]
+    },
+    {
+      "name": "Transformer Models",
+      "aliases": [
+        "attention mechanism"
+      ]
+    },
+    {
+      "name": "Word2Vec",
+      "aliases": [
+        "word embeddings"
+      ]
+    },
+    {
+      "name": "FastText",
+      "aliases": []
+    },
+    {
+      "name": "GloVe",
+      "aliases": []
+    },
+    {
+      "name": "TF-IDF",
+      "aliases": [
+        "term frequency"
+      ]
+    },
+    {
+      "name": "PCA",
+      "aliases": [
+        "principal component analysis",
+        "dimensionality reduction"
+      ]
+    },
+    {
+      "name": "t-SNE",
+      "aliases": []
+    },
+    {
+      "name": "UMAP",
+      "aliases": []
+    },
+    {
+      "name": "K-Means",
+      "aliases": [
+        "kmeans clustering"
+      ]
+    },
+    {
+      "name": "Random Forest",
+      "aliases": [
+        "random forests"
+      ]
+    },
+    {
+      "name": "XGBoost",
+      "aliases": [
+        "xgboost classifier"
+      ]
+    },
+    {
+      "name": "LightGBM",
+      "aliases": [
+        "lgbm"
+      ]
+    },
+    {
+      "name": "CatBoost",
+      "aliases": []
+    },
+    {
+      "name": "SVM",
+      "aliases": [
+        "support vector machines"
+      ]
+    },
+    {
+      "name": "Logistic Regression",
+      "aliases": []
+    },
+    {
+      "name": "Linear Regression",
+      "aliases": []
+    },
+    {
+      "name": "Decision Trees",
+      "aliases": []
+    },
+    {
+      "name": "Gradient Boosting",
+      "aliases": [
+        "gbm"
+      ]
+    },
+    {
+      "name": "Time Series Analysis",
+      "aliases": [
+        "arima",
+        "prophet",
+        "forecasting"
+      ]
+    },
+    {
+      "name": "Reinforcement Learning",
+      "aliases": [
+        "q-learning",
+        "rlhf",
+        "ppo"
+      ]
+    },
+    {
+      "name": "Stable Diffusion",
+      "aliases": [
+        "diffusion models",
+        "midjourney"
+      ]
+    },
+    {
+      "name": "Prompt Engineering",
+      "aliases": [
+        "prompt design",
+        "few-shot prompting"
+      ]
+    },
+    {
+      "name": "Semantic Search",
+      "aliases": [
+        "dense retrieval",
+        "embedding search"
+      ]
+    },
+    {
+      "name": "Polars",
+      "aliases": [
+        "polars dataframe"
+      ]
+    },
+    {
+      "name": "Dask",
+      "aliases": [
+        "distributed dask"
+      ]
+    },
+    {
+      "name": "Ray",
+      "aliases": [
+        "ray tune",
+        "ray serve"
+      ]
+    },
+    {
+      "name": "DuckDB",
+      "aliases": [
+        "duckdb analytics"
+      ]
+    },
+    {
+      "name": "ClickHouse",
+      "aliases": [
+        "clickhouse db"
+      ]
+    },
+    {
+      "name": "Presto",
+      "aliases": [
+        "prestodb",
+        "trino"
+      ]
+    },
+    {
+      "name": "Flink",
+      "aliases": [
+        "apache flink",
+        "stream processing"
+      ]
+    },
+    {
+      "name": "Storm",
+      "aliases": [
+        "apache storm"
+      ]
+    },
+    {
+      "name": "Samza",
+      "aliases": []
+    },
+    {
+      "name": "NiFi",
+      "aliases": [
+        "apache nifi"
+      ]
+    },
+    {
+      "name": "Luigi",
+      "aliases": []
+    },
+    {
+      "name": "Prefect",
+      "aliases": [
+        "prefect workflow"
+      ]
+    },
+    {
+      "name": "Dagster",
+      "aliases": []
+    },
+    {
+      "name": "Great Expectations",
+      "aliases": [
+        "data quality"
+      ]
+    },
+    {
+      "name": "Evidently AI",
+      "aliases": [
+        "data drift"
+      ]
+    },
+    {
+      "name": "Alteryx",
+      "aliases": []
+    },
+    {
+      "name": "Looker",
+      "aliases": [
+        "lookml"
+      ]
+    },
+    {
+      "name": "QlikView",
+      "aliases": [
+        "qliksense"
+      ]
+    },
+    {
+      "name": "Excel Analytics",
+      "aliases": [
+        "vlookup",
+        "pivot tables",
+        "power pivot"
+      ]
+    }
+  ],
+  "databases": [
+    {
+      "name": "PostgreSQL",
+      "aliases": [
+        "postgres",
+        "psql"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "aliases": [
+        "mysql 8"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "aliases": [
+        "mongo",
+        "mongodb atlas"
+      ]
+    },
+    {
+      "name": "Redis",
+      "aliases": [
+        "redis cache"
+      ]
+    },
+    {
+      "name": "SQLite",
+      "aliases": [
+        "sqlite3"
+      ]
+    },
+    {
+      "name": "Oracle Database",
+      "aliases": [
+        "oracle",
+        "oracle sql"
+      ]
+    },
+    {
+      "name": "Microsoft SQL Server",
+      "aliases": [
+        "sql server",
+        "mssql"
+      ]
+    },
+    {
+      "name": "Cassandra",
+      "aliases": [
+        "apache cassandra"
+      ]
+    },
+    {
+      "name": "DynamoDB",
+      "aliases": [
+        "aws dynamodb"
+      ]
+    },
+    {
+      "name": "Elasticsearch",
+      "aliases": [
+        "elastic search",
+        "elk stack"
+      ]
+    },
+    {
+      "name": "Neo4j",
+      "aliases": [
+        "graph database",
+        "cypher"
+      ]
+    },
+    {
+      "name": "Couchbase",
+      "aliases": []
+    },
+    {
+      "name": "Firebase Firestore",
+      "aliases": [
+        "cloud firestore"
+      ]
+    },
+    {
+      "name": "Supabase",
+      "aliases": []
+    },
+    {
+      "name": "Prisma",
+      "aliases": [
+        "prisma orm"
+      ]
+    },
+    {
+      "name": "SQLAlchemy",
+      "aliases": []
+    },
+    {
+      "name": "TypeORM",
+      "aliases": []
+    },
+    {
+      "name": "Hibernate",
+      "aliases": [
+        "jpa hibernate",
+        "jpa"
+      ]
+    },
+    {
+      "name": "MariaDB",
+      "aliases": []
+    },
+    {
+      "name": "CockroachDB",
+      "aliases": [
+        "distributed sql"
+      ]
+    },
+    {
+      "name": "TiDB",
+      "aliases": []
+    },
+    {
+      "name": "Memcached",
+      "aliases": []
+    },
+    {
+      "name": "Hazelcast",
+      "aliases": []
+    },
+    {
+      "name": "Aerospike",
+      "aliases": []
+    },
+    {
+      "name": "RethinkDB",
+      "aliases": []
+    },
+    {
+      "name": "RavenDB",
+      "aliases": []
+    },
+    {
+      "name": "InfluxDB",
+      "aliases": [
+        "time series db",
+        "influx"
+      ]
+    },
+    {
+      "name": "TimescaleDB",
+      "aliases": [
+        "timescale"
+      ]
+    },
+    {
+      "name": "FaunaDB",
+      "aliases": []
+    },
+    {
+      "name": "ScyllaDB",
+      "aliases": []
+    },
+    {
+      "name": "HBase",
+      "aliases": [
+        "apache hbase"
+      ]
+    },
+    {
+      "name": "Accumulo",
+      "aliases": []
+    },
+    {
+      "name": "Amazon DocumentDB",
+      "aliases": []
+    },
+    {
+      "name": "Azure Cosmos",
+      "aliases": []
+    },
+    {
+      "name": "Google Datastore",
+      "aliases": []
+    },
+    {
+      "name": "Berkeley DB",
+      "aliases": []
+    },
+    {
+      "name": "LMDB",
+      "aliases": []
+    },
+    {
+      "name": "RocksDB",
+      "aliases": []
+    },
+    {
+      "name": "LevelDB",
+      "aliases": []
+    },
+    {
+      "name": "ChromaDB",
+      "aliases": [
+        "chroma vector db"
+      ]
+    },
+    {
+      "name": "Pinecone",
+      "aliases": [
+        "pinecone vector search"
+      ]
+    },
+    {
+      "name": "Milvus",
+      "aliases": []
+    },
+    {
+      "name": "Weaviate",
+      "aliases": []
+    },
+    {
+      "name": "Qdrant",
+      "aliases": []
+    },
+    {
+      "name": "Elastic Cloud",
+      "aliases": []
+    },
+    {
+      "name": "Solr Cloud",
+      "aliases": []
+    }
+  ],
+  "devops": [
+    {
+      "name": "Docker",
+      "aliases": [
+        "docker container",
+        "dockerfile",
+        "docker compose"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "aliases": [
+        "k8s",
+        "kubectl",
+        "helm"
+      ]
+    },
+    {
+      "name": "CI/CD",
+      "aliases": [
+        "continuous integration",
+        "continuous deployment",
+        "github actions",
+        "gitlab ci",
+        "jenkins"
+      ]
+    },
+    {
+      "name": "Git",
+      "aliases": [
+        "github",
+        "gitlab",
+        "version control",
+        "bitbucket"
+      ]
+    },
+    {
+      "name": "Linux",
+      "aliases": [
+        "ubuntu",
+        "centos",
+        "debian",
+        "redhat",
+        "unix"
+      ]
+    },
+    {
+      "name": "Prometheus",
+      "aliases": []
+    },
+    {
+      "name": "Grafana",
+      "aliases": []
+    },
+    {
+      "name": "Datadog",
+      "aliases": []
+    },
+    {
+      "name": "New Relic",
+      "aliases": []
+    },
+    {
+      "name": "Splunk",
+      "aliases": []
+    },
+    {
+      "name": "Nginx",
+      "aliases": [
+        "nginx reverse proxy"
+      ]
+    },
+    {
+      "name": "Apache HTTP Server",
+      "aliases": [
+        "apache web server"
+      ]
+    },
+    {
+      "name": "OpenTelemetry",
+      "aliases": [
+        "otel"
+      ]
+    },
+    {
+      "name": "ArgoCD",
+      "aliases": [
+        "gitops"
+      ]
+    },
+    {
+      "name": "Vagrant",
+      "aliases": []
+    },
+    {
+      "name": "Security Best Practices",
+      "aliases": [
+        "owasp",
+        "penetration testing",
+        "vulnerability assessment",
+        "ssl/tls",
+        "iam"
+      ]
+    },
+    {
+      "name": "GitLab",
+      "aliases": [
+        "gitlab-ci"
+      ]
+    },
+    {
+      "name": "Bitbucket",
+      "aliases": [
+        "bitbucket pipelines"
+      ]
+    },
+    {
+      "name": "TeamCity",
+      "aliases": []
+    },
+    {
+      "name": "Bamboo",
+      "aliases": []
+    },
+    {
+      "name": "CircleCI",
+      "aliases": [
+        "circle ci"
+      ]
+    },
+    {
+      "name": "Travis CI",
+      "aliases": [
+        "travis-ci"
+      ]
+    },
+    {
+      "name": "Helm",
+      "aliases": [
+        "helm charts"
+      ]
+    },
+    {
+      "name": "Kustomize",
+      "aliases": []
+    },
+    {
+      "name": "Istio",
+      "aliases": [
+        "service mesh istio"
+      ]
+    },
+    {
+      "name": "Linkerd",
+      "aliases": [
+        "service mesh"
+      ]
+    },
+    {
+      "name": "Consul",
+      "aliases": [
+        "hashicorp consul"
+      ]
+    },
+    {
+      "name": "Vault",
+      "aliases": [
+        "hashicorp vault",
+        "secret management"
+      ]
+    },
+    {
+      "name": "Packer",
+      "aliases": [
+        "hashicorp packer"
+      ]
+    },
+    {
+      "name": "Puppet",
+      "aliases": []
+    },
+    {
+      "name": "Chef",
+      "aliases": [
+        "chef infra"
+      ]
+    },
+    {
+      "name": "SaltStack",
+      "aliases": [
+        "salt"
+      ]
+    },
+    {
+      "name": "Nagios",
+      "aliases": []
+    },
+    {
+      "name": "Zabbix",
+      "aliases": []
+    },
+    {
+      "name": "ELK Stack",
+      "aliases": [
+        "elasticsearch logstash kibana"
+      ]
+    },
+    {
+      "name": "Fluentd",
+      "aliases": [
+        "fluentbit"
+      ]
+    },
+    {
+      "name": "Loki",
+      "aliases": [
+        "grafana loki"
+      ]
+    },
+    {
+      "name": "Tempo",
+      "aliases": [
+        "grafana tempo"
+      ]
+    },
+    {
+      "name": "Jaeger",
+      "aliases": [
+        "distributed tracing"
+      ]
+    },
+    {
+      "name": "Zipkin",
+      "aliases": []
+    },
+    {
+      "name": "Wireshark",
+      "aliases": [
+        "packet analysis"
+      ]
+    },
+    {
+      "name": "Nmap",
+      "aliases": [
+        "network scanning"
+      ]
+    },
+    {
+      "name": "Burp Suite",
+      "aliases": [
+        "web app pentesting"
+      ]
+    },
+    {
+      "name": "Metasploit",
+      "aliases": []
+    },
+    {
+      "name": "Snort",
+      "aliases": [
+        "ids/ips"
+      ]
+    },
+    {
+      "name": "Suricata",
+      "aliases": []
+    },
+    {
+      "name": "CrowdStrike",
+      "aliases": [
+        "edr"
+      ]
+    },
+    {
+      "name": "Splunk SIEM",
+      "aliases": [
+        "siem"
+      ]
+    },
+    {
+      "name": "Terraform Cloud",
+      "aliases": []
+    },
+    {
+      "name": "Spinnaker",
+      "aliases": []
+    },
+    {
+      "name": "Traefik",
+      "aliases": [
+        "traefik proxy"
+      ]
+    },
+    {
+      "name": "HAProxy",
+      "aliases": [
+        "load balancing"
+      ]
+    },
+    {
+      "name": "Envoy",
+      "aliases": [
+        "envoy proxy"
+      ]
+    },
+    {
+      "name": "Squid",
+      "aliases": []
+    },
+    {
+      "name": "DNS Management",
+      "aliases": [
+        "bind9",
+        "cloudflare dns"
+      ]
+    },
+    {
+      "name": "DHCP",
+      "aliases": []
+    },
+    {
+      "name": "TCP/IP Networking",
+      "aliases": [
+        "subnetting",
+        "vlan",
+        "routing"
+      ]
+    },
+    {
+      "name": "BGP",
+      "aliases": [
+        "border gateway protocol"
+      ]
+    },
+    {
+      "name": "OSPF",
+      "aliases": []
+    },
+    {
+      "name": "VPN",
+      "aliases": [
+        "openvpn",
+        "wireguard",
+        "ipsec"
+      ]
+    },
+    {
+      "name": "Firewall Configuration",
+      "aliases": [
+        "iptables",
+        "nftables",
+        "pfsense"
+      ]
+    },
+    {
+      "name": "Zero Trust",
+      "aliases": [
+        "zero trust architecture"
+      ]
+    },
+    {
+      "name": "SOC 2 Compliance",
+      "aliases": [
+        "soc 2",
+        "compliance auditing"
+      ]
+    },
+    {
+      "name": "ISO 27001",
+      "aliases": []
+    },
+    {
+      "name": "HIPAA Compliance",
+      "aliases": [
+        "hipaa"
+      ]
+    },
+    {
+      "name": "GDPR Compliance",
+      "aliases": [
+        "gdpr",
+        "data privacy"
+      ]
+    },
+    {
+      "name": "Unit Testing",
+      "aliases": [
+        "unit tests",
+        "tdd",
+        "test-driven development"
+      ]
+    },
+    {
+      "name": "Integration Testing",
+      "aliases": [
+        "api testing"
+      ]
+    },
+    {
+      "name": "End-to-End Testing",
+      "aliases": [
+        "e2e testing"
+      ]
+    },
+    {
+      "name": "Performance Testing",
+      "aliases": [
+        "load testing",
+        "jmeter",
+        "locust",
+        "k6",
+        "gatling"
+      ]
+    },
+    {
+      "name": "Chaos Engineering",
+      "aliases": [
+        "chaos monkey",
+        "gremlin"
+      ]
+    },
+    {
+      "name": "Static Code Analysis",
+      "aliases": [
+        "sonarqube",
+        "sonarcloud",
+        "snyk",
+        "trivy"
+      ]
+    }
+  ],
+  "soft_skills": [
+    {
+      "name": "Communication",
+      "aliases": [
+        "verbal communication",
+        "written communication",
+        "presentation skills"
+      ]
+    },
+    {
+      "name": "Leadership",
+      "aliases": [
+        "team lead",
+        "mentorship",
+        "mentoring",
+        "team management"
+      ]
+    },
+    {
+      "name": "Problem Solving",
+      "aliases": [
+        "analytical thinking",
+        "critical thinking",
+        "troubleshooting"
+      ]
+    },
+    {
+      "name": "Agile / Scrum",
+      "aliases": [
+        "agile",
+        "scrum",
+        "kanban",
+        "sprint planning",
+        "jira"
+      ]
+    },
+    {
+      "name": "Collaboration",
+      "aliases": [
+        "teamwork",
+        "cross-functional collaboration"
+      ]
+    },
+    {
+      "name": "Time Management",
+      "aliases": [
+        "prioritization",
+        "multitasking"
+      ]
+    },
+    {
+      "name": "Adaptability",
+      "aliases": [
+        "flexibility",
+        "fast learner"
+      ]
+    },
+    {
+      "name": "Stakeholder Management",
+      "aliases": [
+        "client relations",
+        "business communication"
+      ]
+    },
+    {
+      "name": "Code Review",
+      "aliases": [
+        "peer review",
+        "pull request review"
+      ]
+    },
+    {
+      "name": "System Design",
+      "aliases": [
+        "software architecture",
+        "microservices architecture",
+        "distributed systems design"
+      ]
+    },
+    {
+      "name": "Product Management",
+      "aliases": [
+        "roadmap planning",
+        "user stories",
+        "okrs",
+        "kpis"
+      ]
+    },
+    {
+      "name": "Customer Empathy",
+      "aliases": [
+        "user research",
+        "interviewing users"
+      ]
+    },
+    {
+      "name": "Conflict Resolution",
+      "aliases": [
+        "negotiation"
+      ]
+    },
+    {
+      "name": "Public Speaking",
+      "aliases": [
+        "tech talks",
+        "conferencing"
+      ]
+    },
+    {
+      "name": "Technical Writing",
+      "aliases": [
+        "documentation",
+        "api docs",
+        "rfcs",
+        "architecture decision records"
+      ]
+    },
+    {
+      "name": "Domain-Driven Design",
+      "aliases": [
+        "ddd",
+        "bounded context"
+      ]
+    },
+    {
+      "name": "Test-Driven Development",
+      "aliases": [
+        "tdd",
+        "red-green-refactor"
+      ]
+    },
+    {
+      "name": "Pair Programming",
+      "aliases": [
+        "extreme programming",
+        "xp"
+      ]
+    },
+    {
+      "name": "Continuous Learning",
+      "aliases": [
+        "self-motivated",
+        "curiosity"
+      ]
+    },
+    {
+      "name": "Critical Thinking",
+      "aliases": [
+        "root cause analysis",
+        "post-mortem analysis"
+      ]
+    },
+    {
+      "name": "Design Systems",
+      "aliases": [
+        "figma to code",
+        "component library design"
+      ]
+    },
+    {
+      "name": "Accessibility (a11y)",
+      "aliases": [
+        "wcag 2.1",
+        "aria labels",
+        "screen reader optimization"
+      ]
+    }
+  ]
+}

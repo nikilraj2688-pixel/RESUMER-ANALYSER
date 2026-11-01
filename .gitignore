@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+serviceAccountKey.json
+*.env
+.env
+venv/
+env/
+dist/
+build/
+*.egg-info/
+
