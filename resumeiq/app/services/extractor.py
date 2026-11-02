@@ -14,10 +14,12 @@ class ResumeExtractor:
     """
     Extracts structured entities, sections, and canonical skills from resume text.
     Combines spaCy NLP with PhraseMatcher and semantic embedding matching.
+    Optimized with disabled unneeded components (parser, lemmatizer) to conserve RAM on free cloud instances.
     """
     def __init__(self, skills_json_path: Optional[str] = None):
-        logger.info("Initializing spaCy 'en_core_web_md' model...")
-        self.nlp = spacy.load("en_core_web_md")
+        logger.info("Initializing spaCy 'en_core_web_md' model (optimized pipeline)...")
+        # Disable heavy parser and lemmatizer; only ner is needed for names
+        self.nlp = spacy.load("en_core_web_md", disable=["parser", "lemmatizer"])
         
         # Base paths
         if skills_json_path is None:
@@ -198,7 +200,7 @@ class ResumeExtractor:
         2. Category organization
         3. Near-miss fuzzy detection
         """
-        doc = self.nlp(text)
+        doc = self.nlp.make_doc(text)
         matches = self.matcher(doc)
         
         matched_canonical = {}
@@ -241,4 +243,3 @@ class ResumeExtractor:
             "skills": skills,
             "raw_text": text
         }
-
