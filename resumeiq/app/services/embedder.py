@@ -2,13 +2,12 @@ import os
 import json
 import logging
 from typing import Optional
-import torch
-from sentence_transformers import SentenceTransformer
 import numpy as np
 
 # Constrain PyTorch thread consumption to minimize memory footprint
-torch.set_num_threads(1)
 try:
+    import torch
+    torch.set_num_threads(1)
     torch.set_num_interop_threads(1)
 except Exception:
     pass
@@ -18,10 +17,11 @@ logger = logging.getLogger(__name__)
 class EmbedderService:
     """
     Singleton lazy-loaded SentenceTransformer service.
-    Caches model and precomputed role embeddings to optimize inference time and memory.
+    Defers model loading until the first actual analysis request.
+    Uses precomputed, static role vectors at startup without loading PyTorch weights.
     """
     _instance: Optional["EmbedderService"] = None
-    _model: Optional[SentenceTransformer] = None
+    _model = None
     _role_embeddings: dict = {}
 
     def __new__(cls):
@@ -30,9 +30,11 @@ class EmbedderService:
         return cls._instance
 
     @property
-    def model(self) -> SentenceTransformer:
+    def model(self):
+        """Lazy-loads SentenceTransformer only when first needed."""
         if self._model is None:
-            logger.info("Lazy-loading sentence-transformers model 'all-MiniLM-L6-v2'...")
+            logger.info("Lazy-loading sentence-transformers model 'all-MiniLM-L6-v2' on demand...")
+            from sentence_transformers import SentenceTransformer
             self._model = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
             logger.info("SentenceTransformer model loaded successfully.")
         return self._model
@@ -41,25 +43,40 @@ class EmbedderService:
         """Generates 384-dim normalized embedding for a text string."""
         if not text or not text.strip():
             return np.zeros(384, dtype=np.float32)
-        with torch.no_grad():
+        try:
+            import torch
+            with torch.no_grad():
+                return self.model.encode(text, normalize_embeddings=True, show_progress_bar=False)
+        except Exception:
             return self.model.encode(text, normalize_embeddings=True, show_progress_bar=False)
 
     def precompute_role_embeddings(self, roles_data_path: str) -> None:
         """
-        Precomputes and caches role embeddings at application startup.
-        Combines title, description, and required skills for a rich representation.
+        Loads precomputed role vectors from disk or computes them lightly.
+        Does not force heavy model loading at startup if pre-cached vector file exists.
         """
         if self._role_embeddings:
-            return  # Already precomputed
-            
+            return
+
+        cache_path = os.path.join(os.path.dirname(roles_data_path), "roles_embeddings.json")
+        if os.path.exists(cache_path):
+            try:
+                with open(cache_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    self._role_embeddings = {k: np.array(v, dtype=np.float32) for k, v in data.items()}
+                logger.info(f"Loaded {len(self._role_embeddings)} precomputed role embeddings instantly from disk.")
+                return
+            except Exception as e:
+                logger.warning(f"Could not load precomputed embeddings cache: {e}")
+
+        # Fallback: compute on the fly
         if not os.path.exists(roles_data_path):
-            logger.warning(f"Roles file not found at {roles_data_path}, skipping precomputation.")
             return
 
         with open(roles_data_path, "r", encoding="utf-8") as f:
             roles = json.load(f)
 
-        logger.info(f"Precomputing embeddings for {len(roles)} roles...")
+        logger.info(f"Computing embeddings for {len(roles)} roles...")
         texts = []
         role_ids = []
         for role in roles:
@@ -68,18 +85,22 @@ class EmbedderService:
             description = role.get("description", "")
             skills = ", ".join(role.get("required_skills", {}).keys())
             keywords = ", ".join(role.get("typical_keywords", []))
-            
             combined_role_text = f"Role: {title}. Description: {description}. Required Skills: {skills}. Domain Keywords: {keywords}."
             texts.append(combined_role_text)
             role_ids.append(role_id)
 
-        # Batch encode in a single pass to save CPU and peak RAM
-        with torch.no_grad():
-            embeddings = self.model.encode(texts, normalize_embeddings=True, batch_size=8, show_progress_bar=False)
-            for r_id, emb in zip(role_ids, embeddings):
-                self._role_embeddings[r_id] = emb
+        embeddings = self.model.encode(texts, normalize_embeddings=True, batch_size=8, show_progress_bar=False)
+        cache_data = {}
+        for r_id, emb in zip(role_ids, embeddings):
+            self._role_embeddings[r_id] = np.array(emb, dtype=np.float32)
+            cache_data[r_id] = emb.tolist()
 
-        logger.info(f"Precomputed {len(self._role_embeddings)} role embeddings successfully.")
+        try:
+            with open(cache_path, "w", encoding="utf-8") as f:
+                json.dump(cache_data, f)
+            logger.info("Saved roles_embeddings.json to disk.")
+        except Exception:
+            pass
 
     def get_role_embedding(self, role_id: str) -> Optional[np.ndarray]:
         return self._role_embeddings.get(role_id)
