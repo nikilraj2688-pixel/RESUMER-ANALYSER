@@ -31,12 +31,19 @@ class EmbedderService:
 
     @property
     def model(self):
-        """Lazy-loads SentenceTransformer only when first needed."""
+        """Lazy-loads SentenceTransformer or lightweight fallback."""
         if self._model is None:
-            logger.info("Lazy-loading sentence-transformers model 'all-MiniLM-L6-v2' on demand...")
-            from sentence_transformers import SentenceTransformer
-            self._model = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
-            logger.info("SentenceTransformer model loaded successfully.")
+            # Check if heavy transformers is explicitly disabled or not installed
+            if os.getenv("USE_LIGHT_EMBEDDER", "0") == "1":
+                self._model = "fallback"
+                return self._model
+            try:
+                from sentence_transformers import SentenceTransformer
+                self._model = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
+                logger.info("SentenceTransformer model loaded successfully.")
+            except Exception as e:
+                logger.warning(f"Using lightweight TF-IDF semantic embedder ({e}).")
+                self._model = "fallback"
         return self._model
 
     def encode(self, text: str) -> np.ndarray:
@@ -44,11 +51,20 @@ class EmbedderService:
         if not text or not text.strip():
             return np.zeros(384, dtype=np.float32)
         try:
-            import torch
-            with torch.no_grad():
-                return self.model.encode(text, normalize_embeddings=True, show_progress_bar=False)
-        except Exception:
-            return self.model.encode(text, normalize_embeddings=True, show_progress_bar=False)
+            m = self.model
+            if m != "fallback":
+                import torch
+                with torch.no_grad():
+                    return m.encode(text, normalize_embeddings=True, show_progress_bar=False)
+        except Exception as e:
+            logger.warning(f"SentenceTransformer encode failed ({e}), using lexical similarity fallback.")
+
+        # Lightweight TF-IDF fallback vector mapping to ensure analysis always succeeds in low memory
+        from sklearn.feature_extraction.text import HashingVectorizer
+        hv = HashingVectorizer(n_features=384, alternate_sign=False)
+        vec = hv.transform([text]).toarray()[0]
+        norm = np.linalg.norm(vec)
+        return vec / norm if norm > 0 else vec
 
     def precompute_role_embeddings(self, roles_data_path: str) -> None:
         """

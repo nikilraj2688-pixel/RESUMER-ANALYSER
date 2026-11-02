@@ -1,6 +1,7 @@
 import os
 
-# Limit PyTorch to single-thread to operate comfortably within 512MB RAM
+# Optimize for free cloud tiers (512MB RAM)
+os.environ["USE_LIGHT_EMBEDDER"] = os.getenv("USE_LIGHT_EMBEDDER", "1")
 os.environ["OMP_NUM_THREADS"] = "1"
 os.environ["MKL_NUM_THREADS"] = "1"
 os.environ["OPENBLAS_NUM_THREADS"] = "1"

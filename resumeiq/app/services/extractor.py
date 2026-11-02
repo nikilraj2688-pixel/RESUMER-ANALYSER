@@ -17,9 +17,12 @@ class ResumeExtractor:
     Optimized with disabled unneeded components (parser, lemmatizer) to conserve RAM on free cloud instances.
     """
     def __init__(self, skills_json_path: Optional[str] = None):
-        logger.info("Initializing spaCy 'en_core_web_md' model (optimized pipeline)...")
-        # Disable heavy parser and lemmatizer; only ner is needed for names
-        self.nlp = spacy.load("en_core_web_md", disable=["parser", "lemmatizer"])
+        logger.info("Initializing spaCy pipeline...")
+        # Use lightweight en_core_web_sm if available, else fallback to en_core_web_md
+        try:
+            self.nlp = spacy.load("en_core_web_sm", disable=["parser", "lemmatizer"])
+        except Exception:
+            self.nlp = spacy.load("en_core_web_md", disable=["parser", "lemmatizer"])
         
         # Base paths
         if skills_json_path is None:
